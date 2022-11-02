@@ -1,4 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family: arial;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
     color: black;
 }
