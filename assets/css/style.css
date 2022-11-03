@@ -66,6 +66,11 @@ h1, h2 {
 
 /*Hero Image*/
 
+#hero-section {
+    overflow: hidden;
+    height: 600px;
+    width: 100%;
+}
 
 
 #hero-image {
