@@ -86,9 +86,10 @@ h1, h2 {
 }
 
 #hero-section {
-    overflow: hidden;
     height: 600px;
     width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 #hero-image {
