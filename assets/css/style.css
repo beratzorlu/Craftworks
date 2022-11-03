@@ -86,7 +86,7 @@ h1, h2 {
     animation-fill-mode: forwards;
 }
 
-/*Hero Image CSS Animation*/
+/*Hero Image CSS Animation (Took inspiration from the Love Running Project) */
 
 @keyframes heroimage-zoom {
     from {
