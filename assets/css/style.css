@@ -82,7 +82,7 @@ h1, h2 {
     background-size: cover;
     position: relative;
     animation-name: heroimage-zoom;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-fill-mode: forwards;
 }
 
