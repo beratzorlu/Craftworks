@@ -15,7 +15,7 @@ body {
 /*Logo and Headings Style*/
 
 h1, h2 {
-    font-family: Lora, sans-serif;
+    font-family: Josefin Slab, sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -76,6 +76,7 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 5px;
     text-align: center;
+    /*Lines 79-87 style and position background for text.*/
     width: 900px;
     height: 200px;
     padding-top: 40px;
@@ -84,6 +85,11 @@ h1, h2 {
     bottom: 30px;
     right: 150px;
     position: absolute;
+}
+
+#craftworks-red {
+    color: #e6e6e9ff;
+    font-weight: bold;
 }
 
 #hero-section {
