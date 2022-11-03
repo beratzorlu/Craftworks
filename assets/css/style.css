@@ -9,7 +9,7 @@
 body {
     font-family: Josefin Slab, sans-serif;
     font-weight: bold;
-    color: #aa6c39ff;
+    color: #337ca0ff;
 }
 
 /*Logo and Headings Style*/
@@ -25,4 +25,40 @@ h1, h2 {
 #sitelogo {
     float: left;
     font-size: 300%;
+}
+
+/*Navigation CSS*/
+
+#nav-menu {
+    font-size: 120%;
+    letter-spacing: 5px;
+}
+
+#nav-menu ul {
+    float: right;
+}
+
+#nav-menu li {
+    float: left;
+    margin-left: 141.5px;
+    padding-left: 50px;
+    list-style-type: none;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 800;
+}
+
+#nav-menu, #sitelogo {
+    line-height: 75px;
+}
+
+#nav-menu a:hover {
+    border-bottom: 2px dashed #840032ff;
+}
+
+.active {
+    border-bottom: 2px solid #840032ff;
 }
