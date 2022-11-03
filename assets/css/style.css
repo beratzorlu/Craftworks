@@ -64,7 +64,11 @@ h1, h2 {
     border-bottom: 2px solid #840032ff;
 }
 
-/*Hero Image*/
+/*Hero Image & Text*/
+
+#hero-image-text, #hero-image-text h2 {
+    color: #fff;
+}
 
 #hero-section {
     overflow: hidden;
