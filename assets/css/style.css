@@ -26,6 +26,7 @@ h1, h2 {
     float: left;
     font-size: 300%;
     margin-left: 10px;
+    font-family: Lora, sans-serif;
 }
 
 /*Navigation CSS*/
@@ -67,29 +68,29 @@ h1, h2 {
 /*Hero Image & Text*/
 
 #hero-image-text, #hero-image-text h2 {
-    color: #fff;
+/*This tone of white is a better match for the colour scheme than basic #fff*/
+    color: #e6e6e9ff;
 }
 
 #hero-image-text {
-    font-size: 200%;
+    font-size: 100%;
     font-family: Josefin Slab, Times New Roman, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
     text-align: center;
-    /*Lines 79-87 style and position background for text.*/
-    width: 900px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left:after 10px;
+/*Lines 79-87 style and position background for text.*/
+    width: 500px;
+    height: 100px;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(0%, -50%);
+    padding: 20px;
     background-color: rgba(170, 108, 57, 0.6);
-    bottom: 30px;
-    right: 150px;
     position: absolute;
 }
 
 #craftworks-red {
-    color: #e6e6e9ff;
-    font-weight: bold;
+    font-size: 50px;
 }
 
 #hero-section {
