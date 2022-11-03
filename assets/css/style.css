@@ -25,6 +25,7 @@ h1, h2 {
 #sitelogo {
     float: left;
     font-size: 300%;
+    margin-left: 10px;
 }
 
 /*Navigation CSS*/
@@ -62,3 +63,6 @@ h1, h2 {
 .active {
     border-bottom: 2px solid #840032ff;
 }
+
+/*Hero Image*/
+/*This is the failsafe background.*/
