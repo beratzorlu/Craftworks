@@ -78,12 +78,15 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 5px;
     text-align: center;
+    border-color: rgba(170, 108, 57, 1);
+    border-style: double;
+    border-radius: 5%;
 /*Lines 79-87 style and position background for text.*/
     width: 500px;
     height: 100px;
     top: 50%;
     bottom: 50%;
-    transform: translate(0%, -50%);
+    transform: translate(90%, -50%);
     padding: 20px;
     background-color: rgba(170, 108, 57, 0.6);
     position: absolute;
