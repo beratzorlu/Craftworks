@@ -72,7 +72,6 @@ h1, h2 {
     width: 100%;
 }
 
-
 #hero-image {
     height: 600px;
     width: 100%;
@@ -81,6 +80,7 @@ h1, h2 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    /*Lines 83-86 add a zoom-in effect to the hero image*/
     animation-name: heroimage-zoom;
     animation-duration: 10s;
     animation-fill-mode: forwards;
@@ -96,3 +96,5 @@ h1, h2 {
         transform: scale(1.1)
     }
 }
+
+
