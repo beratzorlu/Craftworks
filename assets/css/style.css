@@ -65,4 +65,12 @@ h1, h2 {
 }
 
 /*Hero Image*/
-/*This is the failsafe background.*/
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/hero_image.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
