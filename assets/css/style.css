@@ -69,7 +69,11 @@ h1, h2 {
 
 
 #hero-image {
-    height: 50%;
+    height: 600px;
     width: 100%;
     background-image: url(../images/hero_image.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
