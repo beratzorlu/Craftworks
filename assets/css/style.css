@@ -70,6 +70,21 @@ h1, h2 {
     color: #fff;
 }
 
+#hero-image-text {
+    font-size: 150%;
+    font-family: Lora, Times New Roman, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left:after 10px;
+    background-color: rgba(133, 0, 50, 0.3);
+    bottom: 30px;
+    right: 150px;
+    position:absolute;
+}
+
 #hero-section {
     overflow: hidden;
     height: 600px;
