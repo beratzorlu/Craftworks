@@ -82,3 +82,14 @@ h1, h2 {
     background-size: cover;
     position: relative;
 }
+
+/*Hero Image CSS Animation*/
+
+@keyframes heroimage-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1)
+    }
+}
