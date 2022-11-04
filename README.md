@@ -72,7 +72,20 @@ This project aims to achieve the core purpose of directing a user interested in 
 
 ### Typography and Color Scheme
 
-6. wireframes
+#### Typography 
+
+The idea behind the creation of this web application stems from a family business. Having a relative who owns a company in the custom woodworks sector, it was appropriate to develop a web application that would complement their experiences. This allowed for a means of access to feedback regarding the potential expectations of companies and customers working custom woodworks. Information of this kind was expecially helpful during the visual design process which informed the typography and colour scheme choices of this project.
+
+I wanted a modern and classy look. To find this, I used Google Fonts to find the most appropriate font for my needs. Lora matched my expectations suitably and I decided that I would use it for main headings. After this point, I used Fontjoy.com to find pairings that complimented Lora. <--> and Josefin Slab worked well in this case where I used the former for hero cards and the latter for paragraphs.
+
+#### Colour Scheme
+
+{Provide the colour scheme jpg here.}
+
+### Wireframes
+
+{Provide the wireframe jpgs here.}
+
 ===== Before Code/implementation ===
 7. Technology
 8. testing
