@@ -70,6 +70,7 @@ This project aims to achieve the core purpose of directing a user interested in 
 - Ordering process horizontal plane
 - Order tracking & updates 
 - Creative club
+- Hero video
 
 ### Typography and Color Scheme
 
