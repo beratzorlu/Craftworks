@@ -27,9 +27,51 @@ This project aims to achieve the core purpose of directing a user interested in 
     - To have the ability to place the customised order for delivery.
     - To have the most recent contact and customer feedback information.
     
-3. Features
-4. future features
-5. Typography and color scheme
+### Features
+
+- Mobile First Design
+    - To cater for the most popular devices used by people across the world.
+
+- Homepage
+    - Header
+    - Hero image
+    - Welcome card
+    - Ethos
+    - Working hours
+    - Contact details
+    - Order form link
+    - Footer
+
+- Gallery
+    - Header
+    - Organized images of previous work
+    - Call to action (For ordering)
+    - Footer
+
+- About Us
+    - Header
+    - Company history
+    - Contact information
+    - Location (iframe)
+    - Footer
+
+- Order 
+    - Header
+    - Sticky background image
+    - Form
+    - Footer
+    - ---> Thank you message
+
+- Errors
+    - Custom 404 page & message
+
+### Future Features
+- Back to top button
+- Ordering process horizontal plane
+- Order tracking & updates 
+
+### Typography and Color Scheme
+
 6. wireframes
 ===== Before Code/implementation ===
 7. Technology
