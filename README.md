@@ -69,6 +69,7 @@ This project aims to achieve the core purpose of directing a user interested in 
 - Back to top button
 - Ordering process horizontal plane
 - Order tracking & updates 
+- Creative club
 
 ### Typography and Color Scheme
 
