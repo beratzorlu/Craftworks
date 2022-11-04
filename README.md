@@ -80,7 +80,12 @@ I wanted a modern and classy look. To find this, I used Google Fonts to find the
 
 #### Colour Scheme
 
+The thinking process behind this colour scheme involved choosing colours that complimented shades of brown. My idea was that choosing the most common colour associated with the most common material of woodworks would fit theme of this web application. Thus, to achieve this, I used coolors.co
+to bring together a colour palette appropriate for my needs. Flexibility in this area was an important aspect of the design process as well. I wanted the colours to be usable individually if used on their own.
+
 {Provide the colour scheme jpg here.}
+
+Ultimately, I decided on a collection of colours that I am contend with that also appropriately fit the purposes of this project.
 
 ### Wireframes
 
