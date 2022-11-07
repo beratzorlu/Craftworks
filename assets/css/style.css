@@ -166,3 +166,18 @@ hr {
 .right-ethos-heading {
     float: left;
 }
+
+.center-ethos-heading {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    color: #0c120cff;
+}
+
+#welcome-header {
+    text-align: center;
+    margin: 60px;
+    font-size: 300%;
+}
