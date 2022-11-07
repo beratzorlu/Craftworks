@@ -184,11 +184,22 @@ hr {
 
 /*Homepage Information Card*/
 
+#info-section {
+    padding: 30px;
+}
+
 #info-section-header {
     font-size: 300%;
     text-align: center;
 }
 
-#info-section {
-    padding: 30px;
+.info-card-text {
+    color: #840032ff;
 }
+
+#info-card {
+    display: flex;
+    color: #0c120cff;
+    background-color: #aa6c39ff;
+}
+
