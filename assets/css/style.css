@@ -25,7 +25,7 @@ h1, h2 {
 #sitelogo {
     float: left;
     font-size: 300%;
-    margin-left: 10px;
+    margin-left: 30px;
     font-family: Lora, sans-serif;
 }
 
@@ -42,8 +42,8 @@ h1, h2 {
 
 #nav-menu li {
     float: left;
-    margin-left: 141.5px;
-    padding-left: 50px;
+    margin-left: 110px;
+    padding-left: 60px;
     list-style-type: none;
 }
 
