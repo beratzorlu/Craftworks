@@ -133,7 +133,7 @@ h1, h2 {
 hr {
     border-top: 3px dashed #840032ff;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 #left-ethos {
@@ -146,21 +146,23 @@ hr {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: #337ca0ff;
 }
 
 #center-ethos {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: #0c120cff;
 }
 
-.left-ethos-heading {
+.left-ethos-heading, .right-ethos-heading {
     width: 60%;
     float: right;
     line-height: 30px;
     clear: both;
     margin-bottom: 50px;
     color: #0c120cff;
+}
+
+.right-ethos-heading {
+    float: left;
 }
