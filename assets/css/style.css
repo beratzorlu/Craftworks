@@ -181,3 +181,14 @@ hr {
     margin: 60px;
     font-size: 300%;
 }
+
+/*Homepage Information Card*/
+
+#info-section-header {
+    font-size: 300%;
+    text-align: center;
+}
+
+#info-section {
+    padding: 30px;
+}
