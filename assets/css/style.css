@@ -124,4 +124,24 @@ h1, h2 {
     }
 }
 
+/*Company Ethos*/
 
+#company-ethos {
+    height: 600px;
+}
+
+#left-ethos {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-ethos {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-ethos {
+    
+}
