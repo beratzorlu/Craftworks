@@ -134,14 +134,19 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
+    background-color: #840032ff;
 }
 
 #right-ethos {
     padding-top: 30px;
     width: 33%;
     float: right;
+    background-color: #337ca0ff;
 }
 
 #center-ethos {
-    
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: #0c120cff;
 }
