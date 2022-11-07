@@ -172,7 +172,7 @@ hr {
     height: 300px;
     padding: 30px;
     line-height: 30px;
-    margin: 0 auto;
+    margin: -30px auto;
     color: #0c120cff;
 }
 
