@@ -130,11 +130,16 @@ h1, h2 {
     height: 600px;
 }
 
+hr {
+    border-top: 3px dashed #840032ff;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
 #left-ethos {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: #840032ff;
 }
 
 #right-ethos {
@@ -149,4 +154,13 @@ h1, h2 {
     width: 33%;
     margin: 0 auto;
     background-color: #0c120cff;
+}
+
+.left-ethos-heading {
+    width: 60%;
+    float: right;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 50px;
+    color: #0c120cff;
 }
