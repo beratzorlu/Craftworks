@@ -78,13 +78,13 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 5px;
     text-align: center;
-    border-color: rgba(170, 108, 57, 1);
+    border-color: #e6e6e9ff;
     border-style: double;
 /*Lines 79-87 style and position background for text.*/
     bottom: 60px;
     right: 120px;
     padding: 20px;
-    background-color: rgba(170, 108, 57, 0.6);
+    background-color: rgba(170, 108, 57, 0.9);
     position: absolute;
 }
 
