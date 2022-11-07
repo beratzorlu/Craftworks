@@ -24,9 +24,12 @@ h1, h2 {
 
 #sitelogo {
     float: left;
+
     font-size: 300%;
-    margin-left: 30px;
     font-family: Lora, sans-serif;
+
+    margin-left: 30px;
+    
 }
 
 /*Navigation CSS*/
@@ -42,8 +45,10 @@ h1, h2 {
 
 #nav-menu li {
     float: left;
+
     margin-left: 110px;
     padding-left: 60px;
+
     list-style-type: none;
 }
 
@@ -78,13 +83,17 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 5px;
     text-align: center;
+
     border-color: #e6e6e9ff;
     border-style: double;
+
 /*Lines 79-87 style and position background for text.*/
     bottom: 60px;
     right: 120px;
     padding: 20px;
+
     background-color: rgba(170, 108, 57, 0.9);
+
     position: absolute;
 }
 
@@ -102,11 +111,13 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
+
     background-image: url(../images/hero_image.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
     /*Lines 83-86 add a zoom-in effect to the hero image*/
     animation-name: heroimage-zoom;
     animation-duration: 10s;
@@ -127,7 +138,7 @@ h1, h2 {
 /*Company Ethos*/
 
 #company-ethos {
-    height: 600px;
+    height: 500px;
 }
 
 hr {
@@ -160,6 +171,7 @@ hr {
     line-height: 30px;
     clear: both;
     margin-bottom: 50px;
+
     color: #0c120cff;
 }
 
@@ -173,6 +185,7 @@ hr {
     padding: 30px;
     line-height: 30px;
     margin: -30px auto;
+
     color: #0c120cff;
 }
 
@@ -194,12 +207,26 @@ hr {
 }
 
 .info-card-text {
-    color: #840032ff;
+    color: #e6e6e9ff;
 }
 
 #info-card {
     display: flex;
-    color: #0c120cff;
-    background-color: #aa6c39ff;
+
+    color: #e6e6e9ff;
+    background-color: rgba(132, 0, 50, 1);
+
+    height: auto;
+    width: 55%;
+    margin: auto;
+
+    box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.3);
 }
 
+#info-text {
+    flex: 1 1 0;
+    text-align: center;
+    
+
+    padding-top: 20px;
+}
