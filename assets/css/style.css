@@ -220,6 +220,9 @@ hr {
     line-height: 30px;
     color: #e6e6e9ff;
     background-color: rgba(132, 0, 50, 1);
+    
+    border-style: double;
+    border: 6px double #e6e6e9ff;
 
     height: auto;
     width: 55%;
