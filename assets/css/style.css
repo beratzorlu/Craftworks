@@ -12,6 +12,16 @@ body {
     color: #337ca0ff;
 }
 
+/* Colour Variation */
+
+:root { 
+    --liver-dogs: #aa6c39ff; 
+    --claret: #840032ff; 
+    --platinum: #e6e6e9ff; 
+    --black-chocolate: #0c120cff; 
+    --celadon-blue: #337ca0ff;
+}
+
 /* Logo and Headings Style */
 
 h1, h2 {
@@ -296,5 +306,16 @@ footer p {
     color: #0c120cff;
 }
 
-/* Gallery */
+/* Gallery Grid Box */
+
+.gallery-grid {
+    background: var(--liver-dogs, --black-chocolate);
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.5em;
+}
+
+
+
 
