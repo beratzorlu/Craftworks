@@ -137,6 +137,12 @@ h1, h2 {
 
 /*Company Ethos*/
 
+#welcome-header {
+    text-align: center;
+    margin: 50px;
+    font-size: 300%;
+}
+
 #company-ethos {
     height: 500px;
 }
@@ -189,30 +195,29 @@ hr {
     color: #0c120cff;
 }
 
-#welcome-header {
-    text-align: center;
-    margin: 60px;
-    font-size: 300%;
-}
-
-/*Homepage Information Card*/
+/*Homepage Information Card (Took inspiration from the Happy Dog Cafe Project, Adam Gilroy/adamgilroy22)*/
 
 #info-section {
     padding: 30px;
 }
 
+#info-section hr {
+    border-top: 3px dashed #e6e6e9ff;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
 #info-section-header {
     font-size: 300%;
     text-align: center;
-}
-
-.info-card-text {
-    color: #e6e6e9ff;
+    margin: 20px;
+    padding-bottom: 50px;
 }
 
 #info-card {
     display: flex;
 
+    line-height: 30px;
     color: #e6e6e9ff;
     background-color: rgba(132, 0, 50, 1);
 
@@ -223,10 +228,37 @@ hr {
     box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.3);
 }
 
+#info-card p {
+    font-weight: bold;
+    line-height: 10px;
+    padding-bottom: 20px;
+   
+}
+
+#info-card a {
+    text-decoration: none;
+    color: #e6e6e9ff;
+}
+
+.info-card-heading {
+    color: #e6e6e9ff;
+    font-size: 200%;
+    padding-bottom: 20px;
+
+}
+
 #info-text {
     flex: 1 1 0;
     text-align: center;
     
 
     padding-top: 20px;
+}
+
+#info-text a:hover {
+    border-bottom: 2px dashed #e6e6e9ff;
+}
+
+#info-text p:last-of-type {
+    padding-bottom: 30px;
 }
