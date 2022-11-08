@@ -12,7 +12,7 @@ body {
     color: #337ca0ff;
 }
 
-/*Logo and Headings Style*/
+/* Logo and Headings Style */
 
 h1, h2 {
     font-family: Josefin Slab, sans-serif;
@@ -32,7 +32,7 @@ h1, h2 {
     
 }
 
-/*Navigation CSS*/
+/* Navigation CSS */
 
 #nav-menu {
     font-size: 120%;
@@ -70,10 +70,10 @@ h1, h2 {
     border-bottom: 2px solid #840032ff;
 }
 
-/*Hero Image & Text*/
+/* Hero Image & Text */
 
 #hero-image-text, #hero-image-text h2 {
-/*This tone of white is a better match for the colour scheme than basic #fff*/
+/* This tone of white is a better match for the colour scheme than basic #fff */
     color: #e6e6e9ff;
 }
 
@@ -87,7 +87,7 @@ h1, h2 {
     border-color: #e6e6e9ff;
     border-style: double;
 
-/*Lines 79-87 style and position background for text.*/
+/* Lines 79-87 style and position background for text. */
     bottom: 60px;
     right: 120px;
     padding: 20px;
@@ -118,13 +118,13 @@ h1, h2 {
     background-size: cover;
     position: relative;
 
-    /*Lines 83-86 add a zoom-in effect to the hero image*/
+    /* Lines 83-86 add a zoom-in effect to the hero image */
     animation-name: heroimage-zoom;
     animation-duration: 10s;
     animation-fill-mode: forwards;
 }
 
-/*Hero Image CSS Animation (Took inspiration from the Love Running Project) */
+/* Hero Image CSS Animation (Took inspiration from the Love Running Project) */
 
 @keyframes heroimage-zoom {
     from {
@@ -195,7 +195,7 @@ hr {
     color: #0c120cff;
 }
 
-/*Homepage Information Card (Took inspiration from the Happy Dog Cafe Project, Adam Gilroy/adamgilroy22)*/
+/* Homepage Information Card (Took inspiration from the Happy Dog Cafe Project, Adam Gilroy/adamgilroy22) */
 
 #info-section {
     padding: 30px;
@@ -264,4 +264,27 @@ hr {
 
 #info-text p:last-of-type {
     padding-bottom: 30px;
+}
+
+/* Footer */
+
+footer {
+    height: 150px;
+}
+
+.social-media, a {
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #0c120cff;
 }
