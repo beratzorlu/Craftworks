@@ -272,6 +272,13 @@ footer {
     height: 150px;
 }
 
+footer p {
+    text-align: center;
+    color: #0c120cff;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
 .social-media, a {
     text-align: center;
     list-style: none;
