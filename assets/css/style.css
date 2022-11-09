@@ -148,7 +148,7 @@ h1, h2 {
 
 /*Company Ethos*/
 
-#welcome-header {
+.welcome-header {
     text-align: center;
     margin: 50px;
     font-size: 300%;
@@ -309,6 +309,12 @@ footer p {
 
 /* Gallery Flex Grid */
 
+#gallery-text {
+    border: 10px var(--claret);
+    display: flex;
+    justify-content: center;
+}
+
 .gallery-grid {
     background: var(--white);
     padding: 0.5em;
@@ -316,7 +322,6 @@ footer p {
     display: grid;
     grid-gap: 0.5em;
     grid-template-columns: 1fr 1fr;
-    
 
 }
 
