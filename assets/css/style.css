@@ -330,8 +330,6 @@ footer p {
     grid-template-columns: 1fr 1fr;
     
     padding: 2.5em;
-
-    background: var(--white);
 }
 
 .gallery-grid > div {
@@ -358,7 +356,7 @@ footer p {
         padding: 5em 5em;
 
         grid-gap: 1em;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
         
     }
 
