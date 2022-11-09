@@ -325,13 +325,13 @@ footer p {
 }
 
 .gallery-grid {
-    background: var(--white);
-    padding: 0.5em;
-
     display: grid;
-    grid-gap: 0.5em;
+    grid-gap: 2.5em;
     grid-template-columns: 1fr 1fr;
+    
+    padding: 2.5em;
 
+    background: var(--white);
 }
 
 .gallery-grid > div {
