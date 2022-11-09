@@ -321,7 +321,7 @@ footer p {
 }
 
 .gallery-grid > div {
-    align-items: center;
+    align-items: space-evenly;
     display: flex;
 }
 
@@ -333,6 +333,8 @@ footer p {
 
 
 /* Media Quaries */
+
+/* Desktop Responsivity*/
 
 @media screen and (min-width: 1024px) {
 
