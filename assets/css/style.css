@@ -310,9 +310,18 @@ footer p {
 /* Gallery Flex Grid */
 
 #gallery-text {
-    border: 10px var(--claret);
+    border: 1px dashed var(--claret);
+    padding: 30px;
+
+    text-align: center;
+    font-style: italic;
+    color: var(--black-chocolate);
+
     display: flex;
-    justify-content: center;
+    margin: auto;
+    height: 50%;
+    width: 50%;
+    transform: translate(0%, 0%);
 }
 
 .gallery-grid {
