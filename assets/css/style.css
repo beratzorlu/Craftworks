@@ -348,8 +348,8 @@ footer p {
 
 /* Desktop Responsivity*/
 
-@media screen and (min-width: 1024px) {
-    
+@media screen and (min-width: 1050px) {
+
     /* Desktop Gallery*/
 
     .gallery-grid {
@@ -377,3 +377,17 @@ footer p {
         transition-delay: 0s;
     }
 }
+
+@media screen and (max-width: 1024px) {
+
+    /* Homepage Company Ethos */
+
+    #company-ethos {
+        size: 60%;
+        size: 1000px;
+        margin: 0 auto;
+
+    }
+}
+
+ 
