@@ -307,14 +307,17 @@ footer p {
     color: #0c120cff;
 }
 
-/* Gallery Grid Box */
+/* Gallery Flex Grid */
 
 .gallery-grid {
     background: var(--white);
+    padding: 0.5em;
+
     display: grid;
     grid-gap: 0.5em;
     grid-template-columns: 1fr 1fr;
-    padding: 0.5em;
+    
+
 }
 
 .gallery-grid > div {
@@ -322,10 +325,12 @@ footer p {
     display: flex;
 }
 
-.gallery-image {
-    padding: 20px;
-    width: 50%;
+.gallery-grid > div > img {
+    width: 100%;
+    align-items: center;
+    display: flex;
 }
+
 
 /* Media Quaries */
 
