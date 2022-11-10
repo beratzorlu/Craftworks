@@ -95,10 +95,20 @@
                     <br>
                     <label for="supportive_image">Please Provide Any Supporting Images</label>
                     <input id="supportive_image" type="file" name="supportive_image" accept="image/png, image/jpeg">
-
                 </fieldset>
                 <fieldset></fieldset>
+                    <legend>Payment</legend>
+                    <input id="cash" type="radio" name="payment_method" value="cash">
+                    <label for="cash">I prefer to pay by cash at the workshop.</label>
+                    <br>
+                    <input id="card" type="radio" name="payment_method" value="card">
+                    <label for="card">I prefer to pay by card in person or over the phone.</label>
+                    <br>
+                    <input id="transfer" type="radio" name="payment_method" value="transfer">
+                    <label for="card">I prefer to pay by bank transfer.</label>
+                    <br>
                 <fieldset></fieldset>
+                <input type="submit" value="Submit Order">
             </form>
         </div>
     </section>
