@@ -378,7 +378,7 @@ footer p {
     }
 
     hr {
-        display: none;
+        border-width: 0.1vh;
     }
 }
 
