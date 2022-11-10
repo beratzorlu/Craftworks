@@ -51,28 +51,52 @@
                 <fieldset>
                     <legend>Contact Details</legend>
                     <label for="fname">First Name</label>
-                    <input id="fname" type="text" name="first_name" required>
+                    <input id="fname" type="text" name="first_name" maxlength="20" required>
                     <br>
                     <label for="lname">Last Name</label>
-                    <input id="lname" type="text" name="last_name" required>
+                    <input id="lname" type="text" name="last_name" maxlength="20" required>
                     <br>
                     <label for="tel">Telephone Number</label>
-                    <input id="tel" type="tel" name="tel" required>
+                    <input id="tel" type="tel" name="tel" maxlength="20" required>
                     <br>
                     <label for="email">Email Address</label>
-                    <input id="email" type="email" name="email_address" required>
+                    <input id="email" type="email" name="email_address" maxlength="20" required>
                     <br>
                 </fieldset>
                 <fieldset>
                     <legend>Delivery</legend>
+                    <br>
                     <label for="delivery_method">How Would You Like to Receive Your Order?</label>
                     <select id="delivery_method" name="delivery_method" required>
                         <option value="">Please select your preference.</option>
                         <option value="1">I want my order to be delivered to an address.</option>
                         <option value="2">I want to collect at the workshop.</option>
                     </select>
+                    <br>
+                    <h4>Please provide details below for address delivery.</h4>
+                    <br>
+                    <label for="address1">Adress Line 1</label>
+                    <textarea id="address1" maxlength="50" rows="1"></textarea>
+                    <br>
+                    <label for="address2">Adress Line 2</label>
+                    <textarea id="address2" maxlength="50" rows="1"></textarea>
+                    <br>
+                    <label for="city">City</label>
+                    <textarea id="city" maxlength="50" rows="1"></textarea>
+                    <br>
+                    <label for="eircode">Eircode</label>
+                    <textarea id="eircode" maxlength="50" rows="1"></textarea>
                 </fieldset>
-                <fieldset></fieldset>
+                <fieldset>
+                    <legend>Specifications</legend>
+                    <label for="specifications">Please Provide Any Details That Are Relevant To Your Project</label>
+                    <br>
+                    <textarea id="specifications" name="specifications" rows="10" required>Information such as choice of wood, dimentions, colour etc.</textarea>
+                    <br>
+                    <label for="supportive_image">Please Provide Any Supporting Images</label>
+                    <input id="supportive_image" type="file" name="supportive_image" accept="image/png, image/jpeg">
+
+                </fieldset>
                 <fieldset></fieldset>
                 <fieldset></fieldset>
             </form>
