@@ -150,7 +150,7 @@ h1, h2 {
 
 .welcome-header {
     text-align: center;
-    margin: 50px;
+    margin: 5vh;
     font-size: 300%;
 }
 
@@ -348,9 +348,41 @@ footer p {
 
 /* Desktop Responsivity*/
 
-@media screen and (min-width: 1050px) {
+@media screen and (max-width: 1410px) {
 
-    /* Desktop Gallery*/
+    #company-ethos {
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #welcome-header {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-ethos, #right-ethos {
+        width: 100%;
+        padding: 0;
+    }
+
+    #center-ethos {
+        clear: both;
+        width: 100%;
+        padding: 0;
+    }
+
+    .center-ethos-heading {
+        width: 70%;
+        height: 25vh;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
 
     .gallery-grid {
         padding: 5em 5em;
@@ -359,8 +391,6 @@ footer p {
         grid-template-columns: 2fr 2fr 2fr 2fr;
         
     }
-
-    /* Gallery Image Animation */
 
     .gallery-grid img {
         transition-duration: 200ms;
@@ -375,18 +405,6 @@ footer p {
         transition-duration: 200ms;
         transition-timing-function: ease-in-out;
         transition-delay: 0s;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-
-    /* Homepage Company Ethos */
-
-    #company-ethos {
-        size: 60%;
-        size: 1000px;
-        margin: 0 auto;
-
     }
 }
 
