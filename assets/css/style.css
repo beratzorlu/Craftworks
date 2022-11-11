@@ -79,6 +79,13 @@ h2 {
     border-bottom: 2px solid #840032ff;
 }
 
+/* Idea from Stack Overflow URL:https://stackoverflow.com/questions/53241566/how-to-make-exceptions-to-css-rules */
+a:not(.nav){
+    border: 2px dashed var(--claret);
+    padding: 10%;
+    box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.3);
+  }
+
 /* Hero Image & Text */
 
 #hero-image-text,
@@ -374,7 +381,7 @@ a {
     margin: 5vh;
 }
 
-.order-form > fieldset {
+.order-form>fieldset {
     margin: 1em;
     border: 1px dashed var(--platinum);
     padding: 10%;
@@ -383,7 +390,7 @@ a {
     line-height: 200%;
 }
 
-form > fieldset > legend {
+form>fieldset>legend {
     font-size: 200%;
 }
 
@@ -415,14 +422,14 @@ textarea {
     color: var(--black-chocolate);
     box-shadow: 0 10px #999;
 }
- /* Button press-in effect code inspired by W3 Schools URL:https://www.w3schools.com/howto/howto_css_animate_buttons.asp */
+
+/* Button press-in effect code inspired by W3 Schools URL:https://www.w3schools.com/howto/howto_css_animate_buttons.asp */
 .submit-button:active {
     box-shadow: 0 5px #999;
     transform: translateY(5px);
 }
 
 /* Media Quaries */
-
 /* Desktop Responsivity*/
 
 @media screen and (max-width: 1410px) {
@@ -487,12 +494,12 @@ textarea {
 
 }
 
- /* Mobile Responsivity */
+/* Mobile Responsivity */
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     .order-form {
         max-width: 100%;
         width: 100%;
     }
- }
+}
