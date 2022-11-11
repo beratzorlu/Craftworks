@@ -369,7 +369,7 @@ a {
     border: 6px double var(--platinum);
     background-color: var(--claret);
     color: var(--platinum);
-    max-width: 600px;
+    max-width: 700px;
     margin: 5vh;
 }
 
@@ -380,7 +380,21 @@ a {
     padding: 6% 0% 6% 0%;
     font-size: 100%;
     line-height: 200%;
+}
 
+textarea {
+    width: 90%;
+}
+
+.submit-button {
+    background-color: var(--claret);
+    color: var(--platinum);
+    border: 2px dashed var(--platinum);
+    display: block;
+    text-align: center;
+    margin: 13% auto;
+    font-size: 100%;
+    padding: 10px;
 }
 
 /* Media Quaries */
