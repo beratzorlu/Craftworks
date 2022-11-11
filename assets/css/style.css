@@ -80,11 +80,15 @@ h2 {
 }
 
 /* Idea from Stack Overflow URL:https://stackoverflow.com/questions/53241566/how-to-make-exceptions-to-css-rules */
-a:not(.nav){
-    border: 2px dashed var(--claret);
+a:not(.nav) {
+    border: 2px solid var(--claret);
     padding: 10%;
     box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.3);
-  }
+}
+
+a:hover(.order-button) {
+    scale: (1.2);
+}
 
 /* Hero Image & Text */
 
