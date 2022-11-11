@@ -36,10 +36,8 @@ h2 {
 
 #sitelogo {
     float: left;
-
     font-size: 300%;
     font-family: Lora, sans-serif;
-
     margin-left: 30px;
 
 }
@@ -57,10 +55,8 @@ h2 {
 
 #nav-menu li {
     float: left;
-
     margin-left: 110px;
     padding-left: 60px;
-
     list-style-type: none;
 }
 
@@ -97,17 +93,13 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 5px;
     text-align: center;
-
     border-color: #e6e6e9ff;
     border-style: double;
-
     /* Lines 79-87 style and position background for text. */
     bottom: 60px;
     right: 120px;
     padding: 20px;
-
     background-color: rgba(170, 108, 57, 0.9);
-
     position: absolute;
 }
 
@@ -125,13 +117,11 @@ h2 {
 #hero-image {
     height: 60vh;
     width: 100%;
-
     background-image: url(../images/hero_image.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
     /* Lines 83-86 add a zoom-in effect to the hero image */
     animation-name: heroimage-zoom;
     animation-duration: 10s;
@@ -193,7 +183,6 @@ hr {
     line-height: 30px;
     clear: both;
     margin-bottom: 50px;
-
     color: #0c120cff;
 }
 
@@ -207,7 +196,6 @@ hr {
     padding: 30px;
     line-height: 30px;
     margin: -30px auto;
-
     color: #0c120cff;
 }
 
@@ -232,18 +220,14 @@ hr {
 
 #info-card {
     display: flex;
-
     line-height: 30px;
     color: #e6e6e9ff;
     background-color: rgba(132, 0, 50, 1);
-
     border-style: double;
     border: 6px double #e6e6e9ff;
-
     height: auto;
     width: 55%;
     margin: auto;
-
     box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -263,14 +247,11 @@ hr {
     color: #e6e6e9ff;
     font-size: 200%;
     padding-bottom: 20px;
-
 }
 
 #info-text {
     flex: 1 1 0;
     text-align: center;
-
-
     padding-top: 20px;
 }
 
@@ -318,11 +299,9 @@ a {
 #gallery-text {
     border: 1px dashed var(--claret);
     padding: 30px;
-
     text-align: center;
     font-style: italic;
     color: var(--black-chocolate);
-
     display: flex;
     margin: auto;
     height: 50%;
@@ -334,7 +313,6 @@ a {
     display: grid;
     grid-gap: 2.5em;
     grid-template-columns: 1fr 1fr;
-
     padding: 2.5em;
 }
 
@@ -349,6 +327,23 @@ a {
     display: flex;
 }
 
+/* Form Styling */
+
+.form-divider {
+    border: 5px solid var(--celadon-blue);
+}
+
+.form-container {
+    background: #0c120c99 url(../images/form-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-blend-mode: overlay;
+    background-size: cover;
+    color: var(--platinum);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
 
 /* Media Quaries */
 
