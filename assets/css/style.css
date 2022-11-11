@@ -180,7 +180,7 @@ hr {
 .right-ethos-heading {
     width: 60%;
     float: right;
-    line-height: 30px;
+    line-height: 170%;
     clear: both;
     margin-bottom: 50px;
     color: #0c120cff;
@@ -194,7 +194,7 @@ hr {
     width: 300px;
     height: 300px;
     padding: 30px;
-    line-height: 30px;
+    line-height: 170%;
     margin: -30px auto;
     color: #0c120cff;
 }
@@ -333,6 +333,7 @@ a {
     border: 1px dashed var(--claret);
     padding: 3%;
     text-align: center;
+    line-height: 170%;
     font-style: italic;
     color: var(--black-chocolate);
     display: flex;
