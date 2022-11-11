@@ -402,22 +402,23 @@ textarea {
     padding: 10px;
     transition-duration: 100ms;
     transition-timing-function: ease-in-out;
+    box-shadow: 0px 8px #999;
 }
 
 .submit-button:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition-property: transform;
     transition-duration: 100ms;
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
     background-color: var(--platinum);
     color: var(--black-chocolate);
+    box-shadow: 0 10px #999;
 }
-
+ /* Button press-in effect code inspired by W3 Schools URL:https://www.w3schools.com/howto/howto_css_animate_buttons.asp */
 .submit-button:active {
-    background-color: var(--claret);
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
+    box-shadow: 0 5px #999;
+    transform: translateY(5px);
 }
 
 /* Media Quaries */
