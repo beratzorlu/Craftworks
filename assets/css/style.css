@@ -383,6 +383,10 @@ a {
     line-height: 200%;
 }
 
+form > fieldset > legend {
+    font-size: 100%;
+}
+
 textarea {
     width: 90%;
 }
