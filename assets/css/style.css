@@ -369,7 +369,8 @@ a {
     border: 6px double var(--platinum);
     background-color: var(--claret);
     color: var(--platinum);
-    max-width: 700px;
+    max-width: 50%;
+    width: 50%;
     margin: 5vh;
 }
 
@@ -459,4 +460,16 @@ textarea {
         transition-timing-function: ease-in-out;
         transition-delay: 0s;
     }
+
+
 }
+
+ /* Mobile Responsivity */
+
+ @media screen and (max-width: 768px) {
+
+    .order-form {
+        max-width: 100%;
+        width: 100%;
+    }
+ }
