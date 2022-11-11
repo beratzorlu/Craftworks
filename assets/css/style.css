@@ -331,15 +331,21 @@ a {
 
 .order-welcome {
     border: 1px dashed var(--claret);
-    padding: 30px;
+    padding: 3%;
     text-align: center;
     font-style: italic;
     color: var(--black-chocolate);
     display: flex;
-    margin: auto;
+    margin: auto auto 5%;
     height: 50%;
-    width: 50%;
-    transform: translate(0%, 0%);;
+    width: 40%;
+    transform: translate(0%, 0%);
+}
+
+.order-welcome>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .form-divider {
