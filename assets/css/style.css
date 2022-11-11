@@ -394,12 +394,30 @@ textarea {
 .submit-button {
     background-color: var(--claret);
     color: var(--platinum);
-    border: 2px dashed var(--platinum);
+    border: 2px double var(--platinum);
     display: block;
     text-align: center;
     margin: 13% auto;
     font-size: 100%;
     padding: 10px;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+}
+
+.submit-button:hover {
+    transform: scale(1.2);
+    transition-property: transform;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    background-color: var(--platinum);
+    color: var(--black-chocolate);
+}
+
+.submit-button:active {
+    background-color: var(--claret);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 /* Media Quaries */
