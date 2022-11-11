@@ -333,13 +333,13 @@ a {
     border: 1px dashed var(--claret);
     padding: 3%;
     text-align: center;
-    line-height: 170%;
+    line-height: 200%;
     font-style: italic;
     color: var(--black-chocolate);
     display: flex;
     margin: auto auto 5%;
     height: 50%;
-    width: 40%;
+    width: 45%;
     transform: translate(0%, 0%);
 }
 
@@ -350,19 +350,37 @@ a {
 }
 
 .form-divider {
-    border: 5px solid var(--celadon-blue);
+    border: 3px double var(--claret);
 }
 
 .form-container {
     background: #0c120c99 url(../images/form-background.jpg);
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-blend-mode: overlay;
     background-size: cover;
     color: var(--platinum);
     display: flex;
     text-align: center;
     justify-content: center;
+}
+
+.order-form {
+    border: 6px double var(--platinum);
+    background-color: var(--claret);
+    color: var(--platinum);
+    max-width: 600px;
+    margin: 5vh;
+}
+
+.order-form > fieldset {
+    margin: 1em;
+    border: 1px dashed var(--platinum);
+    padding: 10%;
+    padding: 6% 0% 6% 0%;
+    font-size: 100%;
+    line-height: 200%;
+
 }
 
 /* Media Quaries */

@@ -61,19 +61,23 @@
         </div>
         <div class="form-divider"></div>
         <div class="form-container">
-            <form action="#">
+            <form class="order-form" action="#">
                 <fieldset>
                     <legend>Contact Details</legend>
                     <label for="fname">First Name</label>
+                    <br>
                     <input id="fname" type="text" name="first_name" maxlength="20" required>
                     <br>
                     <label for="lname">Last Name</label>
+                    <br>
                     <input id="lname" type="text" name="last_name" maxlength="20" required>
                     <br>
                     <label for="tel">Telephone Number</label>
+                    <br>
                     <input id="tel" type="tel" name="tel" maxlength="20" required>
                     <br>
                     <label for="email">Email Address</label>
+                    <br>
                     <input id="email" type="email" name="email_address" maxlength="20" required>
                     <br>
                 </fieldset>
@@ -81,6 +85,7 @@
                     <legend>Delivery</legend>
                     <br>
                     <label for="delivery_method">How Would You Like to Receive Your Order?</label>
+                    <br>
                     <select id="delivery_method" name="delivery_method" required>
                         <option value="">Please select your preference.</option>
                         <option value="1">I want my order to be delivered to an address.</option>
@@ -90,25 +95,32 @@
                     <h4>Please provide details below for address delivery.</h4>
                     <br>
                     <label for="address1">Adress Line 1</label>
+                    <br>
                     <textarea id="address1" maxlength="50" rows="1"></textarea>
                     <br>
                     <label for="address2">Adress Line 2</label>
+                    <br>
                     <textarea id="address2" maxlength="50" rows="1"></textarea>
                     <br>
                     <label for="city">City</label>
+                    <br>
                     <textarea id="city" maxlength="50" rows="1"></textarea>
                     <br>
                     <label for="eircode">Eircode</label>
+                    <br>
                     <textarea id="eircode" maxlength="50" rows="1"></textarea>
                 </fieldset>
                 <fieldset>
                     <legend>Specifications</legend>
+                    <br>
                     <label for="specifications">Please Provide Any Details That Are Relevant To Your Project</label>
                     <br>
                     <textarea id="specifications" name="specifications" rows="10" required>Information such as choice of wood, dimentions, colour etc.</textarea>
                     <br>
                     <label for="supportive_image">Please Provide Any Supporting Images</label>
-                    <input id="supportive_image" type="file" name="supportive_image" accept="image/png, image/jpeg">
+                    <br>
+                    <input id="supportive_image" type="file" name="supportive_image" accept="image/png, image/jpeg" tabindex="0">
+                    <br>
                 </fieldset>
                 <fieldset>
                     <legend>Payment</legend>
@@ -122,7 +134,7 @@
                     <label for="card">I prefer to pay by bank transfer.</label>
                     <br>
                 </fieldset>
-                <input type="submit" value="Submit Order">
+                <input type="submit" value="Submit Order" tabindex="0">
             </form>
         </div>
         <div class="form-divider"></div>
