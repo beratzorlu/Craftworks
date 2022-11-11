@@ -144,7 +144,7 @@ h2 {
 
 .welcome-header {
     text-align: center;
-    margin: 5vh;
+    margin: 10vh;
     font-size: 300%;
 }
 
@@ -330,9 +330,16 @@ a {
 /* Form Styling */
 
 .order-welcome {
-    text-align: center;
-    padding: 0%;
     border: 1px dashed var(--claret);
+    padding: 30px;
+    text-align: center;
+    font-style: italic;
+    color: var(--black-chocolate);
+    display: flex;
+    margin: auto;
+    height: 50%;
+    width: 50%;
+    transform: translate(0%, 0%);;
 }
 
 .form-divider {
@@ -364,8 +371,7 @@ a {
     }
 
     .welcome-header {
-        padding: 30px 0;
-        margin: 0;
+        margin: 10vh;
     }
 
     #left-ethos,
