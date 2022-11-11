@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Josefin+Slab:wght@300&family=Lora&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -14,18 +14,19 @@ body {
 
 /* Colour Variation */
 
-:root { 
-    --liver-dogs: #aa6c39ff; 
-    --claret: #840032ff; 
+:root {
+    --liver-dogs: #aa6c39ff;
+    --claret: #840032ff;
     --platinum: #e6e6e9ff;
-    --white: #fafafa; 
-    --black-chocolate: #0c120cff; 
+    --white: #fafafa;
+    --black-chocolate: #0c120cff;
     --celadon-blue: #337ca0ff;
 }
 
 /* Logo and Headings Style */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Josefin Slab, sans-serif;
     font-weight: 400;
     text-transform: uppercase;
@@ -40,7 +41,7 @@ h1, h2 {
     font-family: Lora, sans-serif;
 
     margin-left: 30px;
-    
+
 }
 
 /* Navigation CSS */
@@ -69,7 +70,8 @@ h1, h2 {
     font-weight: 800;
 }
 
-#nav-menu, #sitelogo {
+#nav-menu,
+#sitelogo {
     line-height: 75px;
 }
 
@@ -83,8 +85,9 @@ h1, h2 {
 
 /* Hero Image & Text */
 
-#hero-image-text, #hero-image-text h2 {
-/* This tone of white is a better match for the colour scheme than basic #fff */
+#hero-image-text,
+#hero-image-text h2 {
+    /* This tone of white is a better match for the colour scheme than basic #fff */
     color: #e6e6e9ff;
 }
 
@@ -98,7 +101,7 @@ h1, h2 {
     border-color: #e6e6e9ff;
     border-style: double;
 
-/* Lines 79-87 style and position background for text. */
+    /* Lines 79-87 style and position background for text. */
     bottom: 60px;
     right: 120px;
     padding: 20px;
@@ -141,6 +144,7 @@ h1, h2 {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1)
     }
@@ -182,7 +186,8 @@ hr {
     margin: 0 auto;
 }
 
-.left-ethos-heading, .right-ethos-heading {
+.left-ethos-heading,
+.right-ethos-heading {
     width: 60%;
     float: right;
     line-height: 30px;
@@ -231,7 +236,7 @@ hr {
     line-height: 30px;
     color: #e6e6e9ff;
     background-color: rgba(132, 0, 50, 1);
-    
+
     border-style: double;
     border: 6px double #e6e6e9ff;
 
@@ -246,7 +251,7 @@ hr {
     font-weight: bold;
     line-height: 10px;
     padding-bottom: 20px;
-   
+
 }
 
 #info-card a {
@@ -264,7 +269,7 @@ hr {
 #info-text {
     flex: 1 1 0;
     text-align: center;
-    
+
 
     padding-top: 20px;
 }
@@ -290,13 +295,14 @@ footer p {
     font-style: italic;
 }
 
-.social-media, a {
+.social-media,
+a {
     text-align: center;
     list-style: none;
     text-decoration: none;
 }
 
-.social-media > li {
+.social-media>li {
     display: inline;
 }
 
@@ -328,16 +334,16 @@ footer p {
     display: grid;
     grid-gap: 2.5em;
     grid-template-columns: 1fr 1fr;
-    
+
     padding: 2.5em;
 }
 
-.gallery-grid > div {
+.gallery-grid>div {
     align-items: space-evenly;
     display: flex;
 }
 
-.gallery-grid > div > img {
+.gallery-grid>div>img {
     width: 100%;
     align-items: center;
     display: flex;
@@ -361,7 +367,8 @@ footer p {
         margin: 0;
     }
 
-    #left-ethos, #right-ethos {
+    #left-ethos,
+    #right-ethos {
         width: 100%;
         padding: 0;
     }
@@ -389,7 +396,7 @@ footer p {
 
         grid-gap: 1em;
         grid-template-columns: 2fr 2fr 2fr 2fr;
-        
+
     }
 
     .gallery-grid img {
@@ -407,5 +414,3 @@ footer p {
         transition-delay: 0s;
     }
 }
-
- 
