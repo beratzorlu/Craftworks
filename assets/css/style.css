@@ -350,7 +350,7 @@ a {
 }
 
 .form-divider {
-    border: 3px double var(--claret);
+    border: 4px double var(--claret);
 }
 
 .form-container {
