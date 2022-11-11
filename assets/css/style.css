@@ -79,15 +79,11 @@ h2 {
     border-bottom: 2px solid #840032ff;
 }
 
-/* Idea from Stack Overflow URL:https://stackoverflow.com/questions/53241566/how-to-make-exceptions-to-css-rules */
+/* Exception rule idea from Stack Overflow URL:https://stackoverflow.com/questions/53241566/how-to-make-exceptions-to-css-rules */
 a:not(.nav) {
     border: 2px solid var(--claret);
     padding: 10%;
     box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.3);
-}
-
-a:hover(.order-button) {
-    scale: (1.2);
 }
 
 /* Hero Image & Text */
@@ -494,14 +490,11 @@ textarea {
         transition-timing-function: ease-in-out;
         transition-delay: 0s;
     }
-
-
 }
 
 /* Mobile Responsivity */
 
 @media screen and (max-width: 768px) {
-
     .order-form {
         max-width: 100%;
         width: 100%;
