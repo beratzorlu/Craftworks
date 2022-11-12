@@ -496,9 +496,10 @@ textarea {
     }
 
     #sitelogo {
-        margin-right: 70%;
-        margin-left: 6%;
+        margin-right: 8%;
+        margin-left: 100%;
         font-size: 200%;
+        float: right;
     }
 }
 
@@ -513,7 +514,6 @@ textarea {
         display: flex;
         margin-left: 10%;
         margin-right: 10%;
-        /* font-size: 87%; */
         font-weight: bold;
         float: none;
         align-content: stretch;
