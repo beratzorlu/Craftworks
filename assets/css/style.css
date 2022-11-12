@@ -53,6 +53,8 @@ h2 {
     font-size: 120%;
     letter-spacing: 5px;
     list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #nav-menu a {
@@ -487,22 +489,23 @@ textarea {
 
 /* Mobile Responsivity */
 
-@media screen and (max-width: 768px) {
-    .order-form {
-        max-width: 100%;
-        width: 100%;
-    }
-}
 
-@media screen and (max-width: 782px) {
+@media screen and (max-width: 800px) {
     #nav-menu {
         flex-direction: row;
     }
 
     #sitelogo {
-        margin-right: 55%;
+        margin-right: 70%;
         margin-left: 6%;
-        font-size: 250%;
+        font-size: 200%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .order-form {
+        max-width: 100%;
+        width: 100%;
     }
 }
 
