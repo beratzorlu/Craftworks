@@ -443,7 +443,7 @@ textarea {
 @media screen and (max-width: 1300px) {
 
     #info-section {
-        margin-top: 12rem;
+        margin-top: 2rem;
     }
 
     #company-ethos {
@@ -481,7 +481,7 @@ textarea {
 @media screen and (min-width: 1024px) {
 
     #info-section {
-        margin-top: 12rem;
+        margin-top: 2rem;
     }
 
     .gallery-grid {
@@ -538,5 +538,16 @@ textarea {
     #sitelogo {
         margin-left: 2%;
         font-size: 200%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    #sitelogo {
+        font-size: 150%;
+    }
+
+    #info-section-header {
+        font-size: 150%;
     }
 }
