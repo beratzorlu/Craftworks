@@ -151,7 +151,7 @@ a:not(.nav) {
     font-size: 300%;
 }
 
-#company-ethos {
+.company-ethos {
     margin: auto;
     padding-top: 30px;
     height: 500px;
@@ -167,18 +167,27 @@ hr {
     padding-top: 30px;
     width: 33%;
     float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #right-ethos {
     padding-top: 30px;
     width: 33%;
     float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #center-ethos {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .left-ethos-heading,
@@ -431,7 +440,11 @@ textarea {
 
 /* Desktop Responsivity*/
 
-@media screen and (max-width: 1410px) {
+@media screen and (max-width: 1300px) {
+
+    #info-section {
+        margin-top: 12rem;
+    }
 
     #company-ethos {
         width: 100%;
@@ -468,7 +481,7 @@ textarea {
 @media screen and (min-width: 1024px) {
 
     #info-section {
-        margin-top: 2rem;
+        margin-top: 12rem;
     }
 
     .gallery-grid {
