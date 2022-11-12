@@ -469,7 +469,7 @@ textarea {
 @media screen and (min-width: 1024px) {
 
     .gallery-grid {
-        padding: 5em 5em;
+        padding: 1em 5em;
 
         grid-gap: 1em;
         grid-template-columns: 2fr 2fr 2fr 2fr;
