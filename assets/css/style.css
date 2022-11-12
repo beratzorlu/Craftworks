@@ -515,6 +515,6 @@ textarea {
     #site-logo {
         margin-left: 2%;
         font-size: 200%;
-        display: flex;
+        float: none;
     }
 }
