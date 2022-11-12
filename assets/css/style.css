@@ -491,16 +491,7 @@ textarea {
 
 
 @media screen and (max-width: 800px) {
-    #nav-menu {
-        flex-direction: row;
-    }
 
-    #sitelogo {
-        margin-right: 8%;
-        margin-left: 100%;
-        font-size: 200%;
-        float: right;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -522,9 +513,8 @@ textarea {
     }
 
     #site-logo {
-        float: right;
-        margin-right: 62%;
-        margin-left: 100%;
+        margin-left: 2%;
         font-size: 200%;
+        display: flex;
     }
 }
