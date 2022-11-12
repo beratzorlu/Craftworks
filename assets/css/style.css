@@ -35,7 +35,6 @@ h2 {
 }
 
 #sitelogo {
-    float: none;
     font-size: 300%;
     font-family: Lora, sans-serif;
     margin-left: 30px;
@@ -503,8 +502,7 @@ textarea {
     #nav-menu {
         flex-direction: column;
         display: flex;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin: auto 10% 10%;
         font-weight: bold;
         float: none;
         align-content: stretch;
@@ -515,7 +513,5 @@ textarea {
     #sitelogo {
         margin-left: 2%;
         font-size: 200%;
-        float: none;
-
     }
 }
