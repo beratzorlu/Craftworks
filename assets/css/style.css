@@ -45,19 +45,14 @@ h2 {
 /* Navigation CSS */
 
 #nav-menu {
+    background: unset;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     font-size: 120%;
     letter-spacing: 5px;
-}
-
-#nav-menu ul {
-    float: right;
-}
-
-#nav-menu li {
-    float: left;
-    margin-left: 110px;
-    padding-left: 60px;
-    list-style-type: none;
+    list-style: none;
 }
 
 #nav-menu a {
@@ -81,7 +76,7 @@ h2 {
 
 /* Exception rule idea from Stack Overflow URL:https://stackoverflow.com/questions/53241566/how-to-make-exceptions-to-css-rules */
 a:not(.nav) {
-    border: 2px solid var(--claret);
+    border: 2px solid var(--liver-dogs);
     padding: 10%;
     box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.3);
 }
@@ -429,7 +424,7 @@ textarea {
     transform: translateY(5px);
 }
 
-/* Media Quaries */
+
 /* Desktop Responsivity*/
 
 @media screen and (max-width: 1410px) {
@@ -470,7 +465,6 @@ textarea {
 
     .gallery-grid {
         padding: 1em 5em;
-
         grid-gap: 1em;
         grid-template-columns: 2fr 2fr 2fr 2fr;
 
@@ -479,7 +473,6 @@ textarea {
     .gallery-grid img {
         transition-duration: 200ms;
         transition-timing-function: ease-in-out;
-
         border: 6px double var(--claret);
     }
 
@@ -498,5 +491,30 @@ textarea {
     .order-form {
         max-width: 100%;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    #nav-menu {
+        flex-direction: row;
+    }
+
+    #sitelogo {
+        margin-right: 55%;
+        margin-left: 6%;
+        font-size: 250%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #nav-menu {
+        font-size: 60%;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    #sitelogo {
+        margin-left: 12%;
     }
 }
