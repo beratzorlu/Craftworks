@@ -507,17 +507,24 @@ textarea {
         max-width: 100%;
         width: 100%;
     }
-}
 
-@media screen and (max-width: 700px) {
     #nav-menu {
-        font-size: 60%;
+        flex-direction: column-reverse;
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+        /* font-size: 87%; */
         font-weight: bold;
+        float: none;
+        align-content: stretch;
+        justify-content: space-evenly;
+        align-items: center;
     }
-}
 
-@media screen and (max-width: 428px) {
-    #sitelogo {
-        margin-left: 12%;
+    #site-logo {
+        float: right;
+        margin-right: 62%;
+        margin-left: 100%;
+        font-size: 200%;
     }
 }
