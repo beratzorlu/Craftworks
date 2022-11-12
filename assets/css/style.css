@@ -509,7 +509,7 @@ textarea {
     }
 
     #nav-menu {
-        flex-direction: column-reverse;
+        flex-direction: column;
         display: flex;
         margin-left: 10%;
         margin-right: 10%;
