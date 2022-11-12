@@ -157,6 +157,10 @@ a:not(.nav) {
     height: 500px;
 }
 
+.company-ethos p {
+    display: inline;
+}
+
 hr {
     border-top: 3px dashed #840032ff;
     width: 100%;
@@ -439,6 +443,13 @@ textarea {
 
 
 /* Desktop Responsivity*/
+
+
+@media screen and (min-width: 50px) {
+    .social-media, a {
+        margin-top: 5rem;
+    }
+}
 
 @media screen and (max-width: 1300px) {
 
