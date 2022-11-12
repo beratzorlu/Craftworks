@@ -152,6 +152,8 @@ a:not(.nav) {
 }
 
 #company-ethos {
+    margin: auto;
+    padding-top: 30px;
     height: 500px;
 }
 
@@ -235,10 +237,10 @@ hr {
 }
 
 #info-card p {
+    overflow: hidden;
     font-weight: bold;
-    line-height: 10px;
-    padding-bottom: 20px;
-
+    line-height: 2em;
+    padding: 0px 10px 25px 10px;
 }
 
 #info-card a {
@@ -250,6 +252,7 @@ hr {
     color: #e6e6e9ff;
     font-size: 200%;
     padding-bottom: 20px;
+    overflow: hidden;
 }
 
 #info-text {
@@ -431,7 +434,7 @@ textarea {
 @media screen and (max-width: 1410px) {
 
     #company-ethos {
-        width: 50%;
+        width: 100%;
         height: auto;
         margin: 0 auto;
     }
@@ -464,6 +467,10 @@ textarea {
 
 @media screen and (min-width: 1024px) {
 
+    #info-section {
+        margin-top: 2rem;
+    }
+
     .gallery-grid {
         padding: 1em 5em;
         grid-gap: 1em;
@@ -488,12 +495,17 @@ textarea {
 
 /* Mobile Responsivity */
 
-
-@media screen and (max-width: 800px) {
-
-}
-
 @media screen and (max-width: 768px) {
+
+    #info-section {
+        margin-top: 2rem;
+    }
+
+    #info-card {
+        flex-direction: column;
+        width: 75%;
+    }
+
     .order-form {
         max-width: 100%;
         width: 100%;
@@ -502,7 +514,7 @@ textarea {
     #nav-menu {
         flex-direction: column;
         display: flex;
-        margin: auto 10% 10%;
+        margin: auto 5% 5%;
         font-weight: bold;
         float: none;
         align-content: stretch;
