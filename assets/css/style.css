@@ -252,7 +252,7 @@ hr {
     padding-bottom: 50px;
 }
 
-#info-card {
+.info-card {
     display: flex;
     line-height: 30px;
     color: #e6e6e9ff;
@@ -265,14 +265,14 @@ hr {
     box-shadow: 2px 2px 7px 0 #0000004d;
 }
 
-#info-card p {
+.info-card p {
     overflow: hidden;
     font-weight: bold;
     line-height: 2em;
     padding: 0px 10px 25px 10px;
 }
 
-#info-card a {
+.info-card a {
     text-decoration: none;
     color: #e6e6e9ff;
 }
@@ -468,17 +468,21 @@ textarea {
     transform: translateY(5px);
 }
 
+/* 404 Page */
+
+.text-404 {
+    text-align: center;
+    padding: 4%;
+}
+
+.text-404:hover {
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    border: 6px double var(--claret)
+}
+
 
 /* Desktop Responsivity*/
-
-
-@media screen and (min-width: 50px) {
-
-    .social-media,
-    a {
-        margin-top: 5rem;
-    }
-}
 
 @media screen and (max-width: 1300px) {
 
@@ -562,7 +566,7 @@ textarea {
         margin-top: 2rem;
     }
 
-    #info-card {
+    .info-card {
         flex-direction: column;
         width: 75%;
     }
@@ -623,7 +627,7 @@ textarea {
 
     .welcome-header {
         margin: 10vh 0vh;
-        font-size: 200%;
+        font-size: 150%;
     }
 
     h1,
@@ -633,5 +637,13 @@ textarea {
 
     #hero-image-text {
         font-size: 50%;
+    }
+}
+
+@media screen and (min-width: 50px) {
+
+    .social-media,
+    a {
+        margin-top: 5rem;
     }
 }
