@@ -412,7 +412,6 @@ a {
 .order-form>fieldset {
     margin: 0.5em;
     border: 1px dashed var(--platinum);
-    padding: 10%;
     padding: 6% 0% 6% 0%;
     font-size: 100%;
     line-height: 200%;
