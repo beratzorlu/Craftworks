@@ -101,8 +101,8 @@ a:not(.nav) {
     border-color: #e6e6e9ff;
     border-style: double;
     /* Lines 79-87 style and position background for text. */
-    top: 50%;
-    left: 50%;
+    top: 75%;
+    left: 75%;
     padding: 20px;
     transform: translate(-50%, -50%);
     position: absolute;
@@ -123,6 +123,20 @@ a:not(.nav) {
     height: 60vh;
     width: 100%;
     background-image: url(../images/hero_image_wood.webp);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* Lines 83-86 add a zoom-in effect to the hero image */
+    animation-name: heroimage-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+#hero-image-order {
+    height: 60vh;
+    width: 100%;
+    background-image: url(../images/hero_image_carve.webp);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -577,6 +591,11 @@ textarea {
 
     footer p {
         padding: 5% 5%;
+    }
+
+    #hero-image-text {
+        top: 75%;
+        left: 50%;
     }
 }
 
