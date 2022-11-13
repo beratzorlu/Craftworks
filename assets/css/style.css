@@ -80,7 +80,7 @@ h2 {
 a:not(.nav) {
     border: 2px solid var(--liver-dogs);
     padding: 10%;
-    box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 7px 0 #0000004d;
 }
 
 /* Hero Image & Text */
@@ -103,7 +103,7 @@ a:not(.nav) {
     bottom: 60px;
     right: 120px;
     padding: 20px;
-    background-color: rgba(170, 108, 57, 0.9);
+    background-color: #aa6c39e6;
     position: absolute;
 }
 
@@ -241,13 +241,13 @@ hr {
     display: flex;
     line-height: 30px;
     color: #e6e6e9ff;
-    background-color: rgba(132, 0, 50, 1);
+    background-color: #840032;
     border-style: double;
     border: 6px double #e6e6e9ff;
     height: auto;
     width: 55%;
     margin: auto;
-    box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 7px 0 #0000004d;
 }
 
 #info-card p {
@@ -334,7 +334,7 @@ a {
     grid-gap: 2.5em;
     grid-template-columns: 1fr 1fr;
     padding: 2.5em;
-    box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 7px 0 #00000080;
 }
 
 .gallery-grid>div {
