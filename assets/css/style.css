@@ -141,7 +141,7 @@ a:not(.nav) {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    /* Lines 83-86 add a zoom-in effect to the hero image */
+    /* Lines 145-147 add a zoom-in effect to the hero image */
     animation-name: heroimage-zoom;
     animation-duration: 10s;
     animation-fill-mode: forwards;
@@ -614,7 +614,7 @@ textarea {
     }
 
     .company-ethos {
-        height: 1900px;
+        height: 2000px;
         font-size: 90%;
     }
 
@@ -630,5 +630,9 @@ textarea {
     h1,
     h2 {
         font-size: 130%;
+    }
+
+    #hero-image-text {
+        font-size: 50%;
     }
 }
