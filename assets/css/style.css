@@ -32,6 +32,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #840032ff;
+    font-size: 160%;
 }
 
 #sitelogo {
@@ -153,7 +154,7 @@ a:not(.nav) {
 
 .company-ethos {
     margin: auto;
-    padding-top: 30px;
+    padding: 30px 30px;
     height: 500px;
 }
 
@@ -196,7 +197,7 @@ hr {
 
 .left-ethos-heading,
 .right-ethos-heading {
-    width: 60%;
+    width: 70%;
     float: right;
     line-height: 170%;
     clear: both;
@@ -209,7 +210,7 @@ hr {
 }
 
 .center-ethos-heading {
-    width: 300px;
+    width: 70%;
     height: 300px;
     padding: 30px;
     line-height: 170%;
@@ -457,10 +458,8 @@ textarea {
         margin-top: 2rem;
     }
 
-    #company-ethos {
-        width: 100%;
-        height: auto;
-        margin: 0 auto;
+    .company-ethos {
+        height: 1000px;
     }
 
     .welcome-header {
@@ -487,6 +486,12 @@ textarea {
     hr {
         border-width: 0.1vh;
     }
+
+    .welcome-header {
+        margin: 10vh 0vh;
+        font-size: 250%; 
+    }
+   
 }
 
 @media screen and (min-width: 1024px) {
@@ -521,6 +526,10 @@ textarea {
 
 @media screen and (max-width: 768px) {
 
+    .company-ethos {
+        height: 1300px;
+    }
+
     #info-section {
         margin-top: 2rem;
     }
@@ -550,6 +559,18 @@ textarea {
         margin-left: 2%;
         font-size: 200%;
     }
+
+    footer p {
+        padding: 5% 5%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .company-ethos {
+        height: 1000px;
+        height: 1500px;
+        font-size: 90%;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -558,7 +579,21 @@ textarea {
         font-size: 150%;
     }
 
+    .company-ethos {
+        height: 1900px;
+        font-size: 90%;
+    }
+
     #info-section-header {
         font-size: 150%;
+    }
+
+    .welcome-header {
+        margin: 10vh 0vh;
+        font-size: 200%; 
+    }
+
+    h1,h2 {
+        font-size: 130%;
     }
 }
