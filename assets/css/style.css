@@ -338,7 +338,6 @@ a {
 }
 
 .gallery-grid>div {
-    align-items: space-evenly;
     display: flex;
 }
 
@@ -396,7 +395,7 @@ a {
 }
 
 .order-form>fieldset {
-    margin: 1em;
+    margin: 0.5em;
     border: 1px dashed var(--platinum);
     padding: 10%;
     padding: 6% 0% 6% 0%;
@@ -404,12 +403,24 @@ a {
     line-height: 200%;
 }
 
+.order-form>fieldset>h4 {
+    font-style: italic;
+}
+
+#delivery_method {
+    width: 50%;
+}
+
+#specifications {
+    width: 90%;
+}
+
 form>fieldset>legend {
     font-size: 200%;
 }
 
 textarea {
-    width: 90%;
+    width: 63%;
 }
 
 .submit-button {
@@ -448,7 +459,9 @@ textarea {
 
 
 @media screen and (min-width: 50px) {
-    .social-media, a {
+
+    .social-media,
+    a {
         margin-top: 5rem;
     }
 }
@@ -490,9 +503,9 @@ textarea {
 
     .welcome-header {
         margin: 10vh 0vh;
-        font-size: 250%; 
+        font-size: 250%;
     }
-   
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -591,10 +604,11 @@ textarea {
 
     .welcome-header {
         margin: 10vh 0vh;
-        font-size: 200%; 
+        font-size: 200%;
     }
 
-    h1,h2 {
+    h1,
+    h2 {
         font-size: 130%;
     }
 }
