@@ -133,16 +133,6 @@ a:not(.nav) {
     animation-fill-mode: forwards;
 }
 
-#hero-image-404 {
-    height: 60vh;
-    width: 100%;
-    background-image: url(../images/404_hero_image.webp);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
 #hero-image-order {
     height: 60vh;
     width: 100%;
@@ -489,6 +479,20 @@ textarea {
     transition-duration: 200ms;
     transition-timing-function: ease-in-out;
     border: 6px double var(--claret)
+}
+
+#hero-image-404 {
+    height: 60vh;
+    width: 100%;
+    background-image: url(../images/404_hero_image.webp);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.broken-heart {
+    text-align: center;
 }
 
 
