@@ -133,6 +133,16 @@ a:not(.nav) {
     animation-fill-mode: forwards;
 }
 
+#hero-image-404 {
+    height: 60vh;
+    width: 100%;
+    background-image: url(../images/404_hero_image.webp);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 #hero-image-order {
     height: 60vh;
     width: 100%;
