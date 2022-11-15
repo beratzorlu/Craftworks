@@ -108,7 +108,35 @@ This project aims to achieve the core purpose of directing a user interested in 
 ---
 
 
+## Design Process
 
+### User Experience Design (UXD)
+
+The five pillars of user experience discussed in Code Institute's curriculum heavily informed the uxer experience design process. These are namely strategy, scope, structure, Skeleton and surface.
+
+- ### Strategy 
+
+    Having no prior knowledge of the woodworks industry, research surrounding the active businesses in the woodworks industry that operate in Dublin was paramount. As a result, two companies stood out as prominent and inspirational examples to understand the expectations in terms of web design: [Custom Furniture Ireland](https://www.customfurniture.ie/) and [Diamond Furniture Ireland](https://www.diamondfurniture.ie/). While these two companies did not have direct a impact on the choice of elements and features, they informed the project of the overall functionality that the website of a custom woodworks company would need.
+
+- ### Scope
+
+    User stories and objectives inform the overall scope of this project. While it is important to research the existing entities in the same industry in Dublin, it is possibly more so to understand the potential needs of a user. Thus, there was a close relationship between the user stories and feature design throughout the entirety of the project.
+
+- ### Structure
+
+    In regards to the structure of the website, much of the implementations followed the conventions in web design. However, it is important effectively take advantage of this situation by organizing content that make themselves easier to find and inviting to interact with. Examples of this available in the project are using hover effects on page links and adding zoom to the gallery items.
+
+- ### Skeleton
+
+    The design approach in this area was minimalistic with an emphasis on a balance between form and function. Across all the pages, a user will find concise information with a welcoming tone of language accompanied by interactive and visiual elements. This allows the users to obtain and digest relevant information as soon as possible without spending too much time navigating across the website. Each page of the project contains unique elements that promote a feeling of familiarity from the user.
+
+- ### Surface
+
+    In keeping with the approach to the incorporation of the skeleton plane, the surface plane contributes to this project in the form of situating features and elements into a "clean" and "spacious" visual design approach. Because of this, users will find white space and thin font styles that do not carry much weight on the screen but offer aesthetic value without sacrificing readability.
+
+---
+
+### Wireframes
 
     
 ### Features
