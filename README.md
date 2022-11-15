@@ -76,39 +76,40 @@ This project aims to achieve the core purpose of directing a user interested in 
 
 ### User Stories
 
+- User Stories
+
+    - As a user, I want to be able to see a section about the ethos and philosophy of the company.
+    - As a user, I want to be able to see previous work produced by the workshop.
+    - As a user, I want to be able to view the workshop opening times, location, and contact details.
+    - As a user, I want to be able to place an order.
+    - As a user, I want to be able to see how to follow the workshop on social media.
+
+- Objectives
+
+    - Client Objectives:
+        - For potential customers to find the workshop.
+        - For potential customers to place an order by telephone or form.
+        - To represent a positive brand image for attracting potential customers to the shop.
+        - To provide examples of products to promote transparency.
+        - To encourage current customers to stay up-to-date about their order.
+
+    - First Time Customer Objectives:
+        - To easily locate the physical workshop.
+        - To see examples of furnitures available.
+        - To easily find contact information.
+        - To place an order.
+        
+    - Frequent Visitor Objectives:
+        - To follow the workshop's social media channels to further connect with the company.
+        
+    - Returning Customer Objectives:
+        - To have the most recent contact and customer feedback information.
+
+---
 
 
 
 
-
-
-
-
-### User Stories
-
-- Client Objectives:
-    - For potential customers to find the workshop.
-    - For potential customers to place an order by telephone or form.
-    - To represent a positive brand image for attracting potential customers to the shop.
-    - To provide examples of products to promote transparency.
-    - To encourage current customers to stay up-to-date about their order.
-    - To inform current customers about the approximate manufacturing timeframe for the completion of their order.
-
-- First Time Customer Objectives:
-    - To easily locate the physical workshop.
-    - To see examples of furnitures available.
-    - To easily find contact information to get quotes.
-    - To quickly identify that there's a dedicated order feature.
-    
-- Frequent Visitor Objectives:
-    - To follow the workshop's social media channels to further connect with the company.
-    - To be able to use the form function to place an order for bulk orders.
-    
-- Returning Customer Objectives:
-    - To see that there is a feature to place customised orders.
-    - To have the ability to place customised orders for pick-up.
-    - To have the ability to place the customised order for delivery.
-    - To have the most recent contact and customer feedback information.
     
 ### Features
 
