@@ -1,3 +1,86 @@
+# Craftworks – Portfolio Project 1
+
+![Website mockup covering a range of devices](docs/testing/mockup.png)
+
+## [Link to live web application]( https://beratzorlu.github.io/Craftworks/)
+
+---
+
+## Project Documentation
+### Welcome to Craftworks
+
+Craftworks is a web development project developed as a part of Code Institute’s full stack web development curriculum. It is structured around creating an interactive front-end web application while mainly using HTML5 and CSS3 languages from ground up.
+
+This documentation covers information about the central principals drove the project. As a synopsis, the reader will learn more about the UX/UI development, application testing and deployment, code structure and maintainability, bug fixes, overall design process and the future plans for the project.
+
+The subject of this project, Craftworks, is a fictional woodworks workshop based in Dublin that offers services to customers that help build their household furniture projects. More details about the design of the website and Craftworks as a company will follow in the remainder of this documentation.
+
+Principles of CARE had a significant impact on the creation of this project where cohesion, accessibility, responsivity and essentiality were key notions that directly influenced the end product.
+
+---
+
+## Table of Contents
+
+-	[User Experience (UX)](#user-exp-ux)
+-	[User Stories](#user-stories)
+
+-	[Design Process](#design-process)
+    -	[User Experience Design (UXD)](#user-exp-uxd)
+    -	[Wireframes](#wireframes)
+    -	[Feature Design](#feature-design)
+    -	[Colour Palette](#colour-palette)
+    -	[Typography](#typography)
+    -	[Images](#images)
+
+-	[Practical Features](#practical-features)
+    -	[Home](#home)
+    -	[Menu](#menu)
+    -	[Gallery](#gallery)
+    -	[About](#about)
+    -	[Order](#order)
+    -	[Thank You](#thankyou)
+    -	[404](#404)
+
+-	[Testing](#testing)
+    -	[Features Testing](#features-testing)
+    -	[User Stories Testing](#user-stories-testing)
+
+-	[Validation](#validation)
+    -	[HTML](#html)
+    -	[CSS](#css)
+    -	[Lighthouse](#lighthouse)
+    -	[Accessibility](#accessibility)
+    -	[Mobile Compatibility](#mobile-compatibility)
+
+-	[Bug Fixes](#bug-fixes)
+
+-	[Deployment](#deployment)
+
+-	[Version Control](#version-control)
+
+-	[Future Features](#future-features)
+
+-	[Technologies Used](#technologies-used)
+    -	[Hardware](#hardware)
+    -	[Software](#software)
+
+-	[Credits](#credits)
+
+-	[Closing Words](#closing-words)
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
 ### Purpose of the Project
 This project aims to achieve the core purpose of directing a user interested in buying custom wooden furniture in Dublin to the functionality available on this web application.
 
