@@ -22,7 +22,7 @@ Principles of CARE had a significant impact on the creation of this project wher
 ## Table of Contents
 
 -	[User Experience (UX)](#user-exp-ux)
--	[User Stories](#user-stories)
+    -	[User Stories](#user-stories)
 
 -	[Design Process](#design-process)
     -	[User Experience Design (UXD)](#user-exp-uxd)
@@ -70,19 +70,19 @@ Principles of CARE had a significant impact on the creation of this project wher
 
 ---
 
+## User Experience (UX)
 
-
-
-
-
-
-
-
-
-
-
-### Purpose of the Project
 This project aims to achieve the core purpose of directing a user interested in buying custom wooden furniture in Dublin to the functionality available on this web application.
+
+### User Stories
+
+
+
+
+
+
+
+
 
 ### User Stories
 
