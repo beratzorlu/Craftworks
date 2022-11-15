@@ -27,7 +27,6 @@ Principles of CARE had a significant impact on the creation of this project wher
 -	[Design Process](#design-process)
     -	[User Experience Design (UXD)](#user-exp-uxd)
     -	[Wireframes](#wireframes)
-    -	[Feature Design](#feature-design)
     -	[Colour Palette](#colour-palette)
     -	[Typography](#typography)
     -	[Images](#images)
@@ -138,7 +137,59 @@ The five pillars of user experience discussed in Code Institute's curriculum hea
 
 ### Wireframes
 
-    
+
+
+### Colour Palette
+
+Implementation of a colour palette that prioritized maintaining a balance between aesthetic quality and readability produced a result that satisfied the needs of this project.
+
+[Coolors](https://coolors.co/) was a highly beneficial resource in this regard which provided significant help in identifying
+matching colours that also have appropriate contrast.
+
+![Colour Palette](docs/pp1_colour_scheme.png)
+
+---
+
+### Typography
+
+[Code Institute](https://codeinstitute.net/ie/)'s reccomended approach to choosing fonts on [Google Fonts](https://fonts.google.com/about) was sufficient in finding satisfactory font families. The below is the list of fonts used to stylize the text content of the project;
+
+- Headings: Lora (Normal 400)
+    ![Lora](docs/lora.png) 
+- Smaller Headings: Josefin Slab (Light 300)
+    ![Josefin Slab](docs/josefin_slab.png)
+- Text: Frank Rurl Libre (Light 300)
+    ![Frank Rurl Libre](docs/frank_ruhl_libre.png) 
+
+However, while this list provided an consistent aesthetic for the website, there have been situations where some of the font types were used outside of their determined purpose. For example, using Lora and Josefin Slab interchangibly at times for purposes of cohesion.
+
+---
+
+### Images
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Features
 
 - Mobile First Design
