@@ -34,7 +34,6 @@ Principles of CARE had a significant impact on the creation of this project wher
 -	[Website Features](#website-features)
     -	[Shared Elements](#shared-elements)
     -   [Home](#home)
-    -	[Menu](#menu)
     -	[Gallery](#gallery)
     -	[About](#about)
     -	[Order](#order)
@@ -179,7 +178,7 @@ Conveying a welcoming and organized visual language was the main approach toward
 
 The design considerations that impacted the envisioned fatures were mainly structured around convential website design. While there were more features planned in the initial stages of the project, some were not entertained to the benefit of serving the needs referenced in the [User Stories](#user-stories) section. Thus, it was important to focus on a minimum viable project rather than prioritizing the implementation of further features for the sake of it. This would only bloat the website without adding much value to the user experience overall.
 
-- ### Shared Elements
+### Shared Elements
 
 The below elements are available to be experienced by the user across the website as a whole.
 
@@ -211,13 +210,41 @@ Designing a favicon for the website as a process that required a series of trial
 
 [Canva](https://www.canva.com/) was the service that allowed the design and creation of this element.
 
-- ### Home
+### Home
 
 ![home](docs/home_page.png)
 
-The home page mainly serves the purpose of communicating the core purpose and motivations of Craftworks both as a company and a social community. Through the "Our Promises" section, users are able to learn about the quality of the prodcuts, assurance as well as the enthusiasm of the company to work alongside their customers to produce an end product.
+The home page mainly serves the purpose of communicating the core purpose and motivations of Craftworks both as a company and a social community. Through the "Our Promises" section, users are able to learn about the quality of the prodcuts, delivery assurance as well as the enthusiasm of the company to work alongside their customers to produce an end product.
 
-- ### Gallery
+### Gallery
+
+![gallery](docs/gallery_text.png)
+
+Users are greeted to the section with a box of text inviting them to interact with the following gallery feature and learn more about the production quality of the company. This provides transparency about the capacity of the company to deliver on their promises mentioned in the [home](#home) section.
+
+- #### Gallery Grid
+
+![grid](docs/grid.png)
+
+This element is practically the critical companent of this project. The gallery grid serves to compel the users and provide them an aesthetically pleasing viewing experience during their time exploring the website. Having found an interactive gallery element displaying instances of successful products, it is more likely for the users to view the order form.
+
+### About
+
+![about](docs/about_page.png)
+
+Structurally the about page shares designs visible in the previous pages, however, the section itself includes key details for users to successfully communicate with and locate the workshop.
+
+- #### Key Details Info Card
+
+![key details](docs/key_details.png)
+
+This information card provides all the necessary details for a customer or user to effectively ineract with the company. Thus, the about section specifically refers to this need by displaying this element as its content. This straightforward approach allows the user to directly access all the information they need about the company. 
+
+While it would have been practical for the user to find this information in the home page, it was more fitting to recognize user agency by allowing them to display such information *if* and *when* they want by clicking on the about link.
+
+### Order
+
+![order page](docs/order_page.png)
 
 
 
