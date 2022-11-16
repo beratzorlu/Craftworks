@@ -21,17 +21,17 @@ Principles of CARE had a significant impact on the creation of this project wher
 
 ## Table of Contents
 
--	[User Experience (UX)](#user-exp-ux)
+-	[User Experience (UX)](#user-experience-ux)
     -	[User Stories](#user-stories)
 
 -	[Design Process](#design-process)
-    -	[User Experience Design (UXD)](#user-exp-uxd)
+    -	[User Experience Design (UXD)](#user-experience-design-uxd)
     -	[Wireframes](#wireframes)
     -	[Colour Palette](#colour-palette)
     -	[Typography](#typography)
     -	[Images](#images)
 
--	[Practical Features](#practical-features)
+-	[Website Features](#website-features)
     -	[Home](#home)
     -	[Menu](#menu)
     -	[Gallery](#gallery)
@@ -174,8 +174,11 @@ Conveying a welcoming and organized visual language was the main approach toward
 
 ---
 
+## Website Features
 
+The design considerations that impacted the envisioned fatures were mainly structured around convential website design. While there were more features planned in the initial stages of the project, some were not entertained to the benefit of serving the needs referenced in the [User Stories](#user-stories) section. Thus, it was important to focus on a minimum viable project rather than prioritizing the implementation of further features for the sake of it. This would only bloat the website without adding much value to the user experience overall.
 
+- ## Home
 
 
 
