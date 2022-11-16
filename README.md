@@ -40,6 +40,8 @@ Principles of CARE had a significant impact on the creation of this project wher
     -	[Thank You](#thankyou)
     -	[404 Page](#404-page)
 
+-   [Future Features](#future-features) 
+
 -	[Testing](#testing)
     -	[Features Testing](#features-testing)
     -	[User Stories Testing](#user-stories-testing)
@@ -273,6 +275,25 @@ The thank you page shares its structure with the [Order Form](#order-form) page.
 404 pages are elements that are not commonly visible to the user. Thus, this page aims to help navigate users back to the home page to prevent them from feeling lost. The 404 page is a unique element within the project is it leverages the fact that it will not be commonly visible to the users by displaying a puppet as comic relief.
 
 ---
+
+## Future Features
+
+- ### Back to Top Button
+    - This will help with easier navigation.
+- ### Interactive Infographic for Ordering Process
+    - Users will be able to access and digest relevant information.
+- ### Order Tracking & Updates
+    - It is beneficial for both parties to ensure there is constant communication between the company and the customer. Providing real-time information about their order is an effective way to achieve this.
+- ### Creative Club Section
+    - Another section that invites customers to sign up to learn about woodcrafts would provide another stream of income as well as another interactable form element on the website. 
+- ### Hero Video
+    - This would improve the overall look of the website by providing a more professional aesthetic to the webpage. The video would need to be muted and looped.
+
+---
+
+## Testing 
+
+
 
 
 
