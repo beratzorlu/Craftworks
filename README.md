@@ -32,7 +32,8 @@ Principles of CARE had a significant impact on the creation of this project wher
     -	[Images](#images)
 
 -	[Website Features](#website-features)
-    -	[Home](#home)
+    -	[Shared Elements](#shared-elements)
+    -   [Home](#home)
     -	[Menu](#menu)
     -	[Gallery](#gallery)
     -	[About](#about)
@@ -178,7 +179,46 @@ Conveying a welcoming and organized visual language was the main approach toward
 
 The design considerations that impacted the envisioned fatures were mainly structured around convential website design. While there were more features planned in the initial stages of the project, some were not entertained to the benefit of serving the needs referenced in the [User Stories](#user-stories) section. Thus, it was important to focus on a minimum viable project rather than prioritizing the implementation of further features for the sake of it. This would only bloat the website without adding much value to the user experience overall.
 
-- ## Home
+- ### Shared Elements
+
+The below elements are available to be experienced by the user across the website as a whole.
+
+- #### Navigation
+
+![navigation bar](docs/nav_bar.png)
+
+Taking a straigtforward and practical approach to resulted in the creation of the navigation element provided above. All elements have hover effects to provide user feedback and underlines to display the active page. The order page has unique styling to emphasize the core function of the project; to encourage customers to make use of the services provided by Craftworks by placing an order. The logo is displayed at all times to motivate a feeling of familiarity in the user.
+
+- #### Hero Image and Text Card
+
+![hero image](docs/hero_image.png)
+
+In keeping with the points available in the [Images]{#images} section, the choice of hero image here represents a positive outlooks towards the actions associated with woodworks. By displaying a lauging lady holding a wooden material while, the hero image section aims to instill a sense of welcoming from the user.
+
+While the content inside the text card is not identical the framework itself is shared across the website. This serves multiple purposes by both welcoming and reassuring the users of which page they are currently displaying on their respective devices.
+
+- #### Footer
+
+![footer](docs/footer.png)
+
+The footer represents a minimalistic design philosophy. The social media websites of the company are displayed openly and clearly by providing appropriate spacing and medium-size social media logos. There is also a signiture text provided in the bottom center of the footer to refer users to the developer responsible for this project. ([Berat Zorlu](https://github.com/beratzorlu/Craftworks))
+
+- #### Favicon
+
+![favicon](android-chrome-192x192.png)
+
+Designing a favicon for the website as a process that required a series of trials and errors to find the design that fit the project most appropriately. Providing image sizes that also fit different browsers and devices an important concern regarding this area. 
+
+[Canva](https://www.canva.com/) was the service that allowed the design and creation of this element.
+
+- ### Home
+
+![home](docs/home_page.png)
+
+The home page mainly serves the purpose of communicating the core purpose and motivations of Craftworks both as a company and a social community. Through the "Our Promises" section, users are able to learn about the quality of the prodcuts, assurance as well as the enthusiasm of the company to work alongside their customers to produce an end product.
+
+- ### Gallery
+
 
 
 
