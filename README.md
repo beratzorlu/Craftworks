@@ -351,6 +351,28 @@ The testing procedure began immediately after the deployment of the website on [
 - styles.css
 ![csstest](docs/css_validation.png)
 
+### Lighthouse
+
+- Mobile 
+    - ![lighthousedesktop](docs/lighthouse_mobile.png)
+- Desktop 
+    - ![lighthousemobile](docs/lighthouse_desktop.png)
+
+### Accessibility
+
+- Home
+![homeacc](docs/acc_home.png)
+- Gallery
+![galleryacc](docs/acc_gallery.png)
+- About
+![aboutacc](docs/acc_gallery.png)
+- Order
+![orderacc](docs/acc_order.png)
+- Thank You
+![thankyouacc](docs/acc_thankyou.png)
+- 404
+![404acc](docs/acc_404.png)
+
 
 
 
