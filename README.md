@@ -44,7 +44,6 @@ Principles of CARE had a significant impact on the creation of this project wher
 
 -	[Testing](#testing)
     -   [User Stories Testing](#user-stories-testing) 
-    -	[Features Testing](#features-testing)
     -   [Browser Testing](#browser-testing)
     -   [Device Testing](#device-testing)
 
@@ -328,9 +327,29 @@ The testing procedure began immediately after the deployment of the website on [
     - Samsung Galaxy A51
         - ![galaxya51](docs/samsung_test.jpg)
 
+---
 
+## Validation
 
+### HTML
 
+- Home
+![indextest](docs/html_index_validation.png)
+- Gallery
+![gallerytest](docs/html_gallery_validation.png)
+- About
+![abouttest](docs/html_about_validation.png)
+- Order
+![ordertest](docs/html_order_validation.png)
+- Thank You
+![thankyoutest](docs/html_thankyou_validation.png)
+- 404
+![404test](docs/html_404_validation.png)
+
+### CSS
+
+- styles.css
+![csstest](docs/css_validation.png)
 
 
 
