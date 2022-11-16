@@ -167,6 +167,13 @@ However, while this list provided an consistent aesthetic for the website, there
 
 ### Images
 
+The overall imagery present on the website consists of pictures that have at least a minor connection with the theme of woodworks.
+Conveying a welcoming and organized visual language was the main approach towards deciding what images to choose specifically. However, at the same time as this idea, it was equally important to ensure that the pictures displayed the physical actions associated with craftsmanship while also displaying a positive outlooks towards similar labour. This is most apparent in the hero images sections.
+
+[Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/) were the platforms that this project resourced its image files from.
+
+---
+
 
 
 
