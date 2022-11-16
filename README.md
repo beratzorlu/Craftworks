@@ -373,6 +373,10 @@ The testing procedure began immediately after the deployment of the website on [
 - 404
 ![404acc](docs/acc_404.png)
 
+### Mobile Compatibility
+
+- Mobile-Friendly Test
+    -[mbt](docs/mobile_friendly_test.png)    
 
 
 
