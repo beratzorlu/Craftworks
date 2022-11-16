@@ -376,7 +376,20 @@ The testing procedure began immediately after the deployment of the website on [
 ### Mobile Compatibility
 
 - Mobile-Friendly Test
-    -[mbt](docs/mobile_friendly_test.png)    
+    - ![mbt](docs/mobile_friendly_test.png)
+
+---    
+
+## Bug Fixes
+
+- Gallery Grid Image Load Failure
+    - Fixed by removing the "/" present before the relative path declarations in the associated HTML code.
+- Navigation Bar Responsivity
+    - Fixed by removing <code>position:absolute</code> and adding <code>display:flex</code>.
+- Home Text Overflow
+    - Fixes by implementing media queries to add whitespace that accomodates for the text flowing downwards.  
+
+---
 
 
 
@@ -390,24 +403,6 @@ The testing procedure began immediately after the deployment of the website on [
 
 
 
-
-
-
-
-#### Typography 
-
-The idea behind the creation of this web application stems from a family business. Having a relative who owns a company in the custom woodworks sector, it was appropriate to develop a web application that would complement their experiences. This allowed for a means of access to feedback regarding the potential expectations of companies and customers working custom woodworks. Information of this kind was expecially helpful during the visual design process which informed the typography and colour scheme choices of this project.
-
-I wanted a modern and classy look. To find this, I used Google Fonts to find the most appropriate font for my needs. Lora matched my expectations suitably and I decided that I would use it for main headings. After this point, I used Fontjoy.com to find pairings that complimented Lora. <--> and Josefin Slab worked well in this case where I used the former for hero cards and the latter for paragraphs.
-
-#### Colour Scheme
-
-The thinking process behind this colour scheme involved choosing colours that complimented shades of brown. My idea was that choosing the most common colour associated with the most common material of woodworks would fit theme of this web application. Thus, to achieve this, I used coolors.co
-to bring together a colour palette appropriate for my needs. Flexibility in this area was an important aspect of the design process as well. I wanted the colours to be usable individually if used on their own.
-
-{Provide the colour scheme jpg here.}
-
-Ultimately, I decided on a collection of colours that I am contend with that also appropriately fit the purposes of this project.
 
 ### Wireframes
 
