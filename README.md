@@ -43,8 +43,10 @@ Principles of CARE had a significant impact on the creation of this project wher
 -   [Future Features](#future-features) 
 
 -	[Testing](#testing)
+    -   [User Stories Testing](#user-stories-testing) 
     -	[Features Testing](#features-testing)
-    -	[User Stories Testing](#user-stories-testing)
+    -   [Browser Testing](#browser-testing)
+    -   [Device Testing](#device-testing)
 
 -	[Validation](#validation)
     -	[HTML](#html)
@@ -293,6 +295,38 @@ The thank you page shares its structure with the [Order Form](#order-form) page.
 
 ## Testing 
 
+The testing procedure began immediately after the deployment of the website on [GitHub Pages](https://pages.github.com/). Early deployment was import to ensure the reliability of the features available in the project before moving on to implementing further elements. Friends and family were important players in the testing process who were happy to constantly play with the deployed website to see if they can find issues and suggest improvements; I am grateful for their commitment and help.
+
+- ### User Stories Testing 
+
+    - As a user, I want to be able to see a section about the ethos and philosophy of the company.
+        - ![home](docs/home_page.png)
+    - As a user, I want to be able to see previous work produced by the workshop.
+        - ![grid](docs/grid.png)
+    - As a user, I want to be able to view the workshop opening times, location, and contact details.
+        - ![key details](docs/key_details.png)
+    - As a user, I want to be able to place an order.
+        - ![order form](docs/order_form.png)
+    - As a user, I want to be able to see how to follow the workshop on social media.
+        - ![footer](docs/footer.png)
+
+- ### Browser Testing
+- Three major internet browsing applications were used for the browser testing process producing an overall satisfactory result.
+    - Firefox
+        - ![firefox](docs/firefox_test.png)
+    - Chrome
+        - ![chrome](docs/chrome_test.png)  
+    - Edge
+        - ![edge](docs/edge_test.png)
+
+- ### Device Testing
+- The devices provided below are items that were available at the time of the device testing process. While there was a gap in the amount of platforms accessable at the time, the test outcome incorporates 2 main mobile platforms and a powerful gaming laptop. 
+    - Monster Abra A5 V13.4 15.6" Laptop
+        - ![monsterabra](docs/firefox_test.png)
+    - Apple Iphone 7 Plus
+        - ![iphone7+](docs/iphone_test.jpg)
+    - Samsung Galaxy A51
+        - ![galaxya51](docs/samsung_test.jpg)
 
 
 
@@ -314,56 +348,6 @@ The thank you page shares its structure with the [Order Form](#order-form) page.
 
 
 
-
-
-
-
-### Features
-
-- Mobile First Design
-    - To cater for the most popular devices used by people across the world.
-
-- Homepage
-    - Header
-    - Hero image
-    - Welcome card
-    - Ethos
-    - Working hours
-    - Contact details
-    - Order form link
-    - Footer
-
-- Gallery
-    - Header
-    - Organized images of previous work
-    - Call to action (For ordering)
-    - Footer
-
-- About Us
-    - Header
-    - Company history
-    - Contact information
-    - Location (iframe)
-    - Footer
-
-- Order 
-    - Header
-    - Sticky background image
-    - Form
-    - Footer
-    - ---> Thank you message
-
-- Errors
-    - Custom 404 page & message
-
-### Future Features
-- Back to top button
-- Ordering process horizontal plane
-- Order tracking & updates 
-- Creative club
-- Hero video
-
-### Typography and Color Scheme
 
 #### Typography 
 
