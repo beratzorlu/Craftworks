@@ -58,8 +58,6 @@ Principles of CARE had a significant impact on the creation of this project wher
 
 -	[Deployment](#deployment)
 
--	[Version Control](#version-control)
-
 -	[Future Features](#future-features)
 
 -	[Technologies Used](#technologies-used)
