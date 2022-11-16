@@ -38,7 +38,7 @@ Principles of CARE had a significant impact on the creation of this project wher
     -	[About](#about)
     -	[Order](#order)
     -	[Thank You](#thankyou)
-    -	[404](#404)
+    -	[404 Page](#404-page)
 
 -	[Testing](#testing)
     -	[Features Testing](#features-testing)
@@ -245,6 +245,36 @@ While it would have been practical for the user to find this information in the 
 ### Order
 
 ![order page](docs/order_page.png)
+
+Once users reach the order page they will find a unique hero image accompanied by a text box detailing the ordering process. By displaying hands working on wooden material, the order page aims to communicate that work is about to begin. It also features a background image of a workshop to further reinforce this idea.
+
+- #### Order Form
+
+![order form](docs/order_form.png)
+
+The order form represents the core function of the website. It is the way in which the users establishes a direct connection with the services that the company offers. The form includes all necessary details and input for a user to communicate their design ideas and demands as well as their contact information and choice of payment. All these elements combined allow for the submittion of a complete and informative experience for both sides. 
+
+- #### Order Button
+
+![order button](docs/order_button.png)
+
+While this is not a necessary feature for the form to function as intended, it allowed for an opportunity to demonstrate my aptitude regarding the implementation of HTML and CSS into the project. Moreover, providing a button that reacts and responds to the interactions of the user improves the overall experience gained from submitting the form.
+
+### Thank You
+
+![thank you](docs/thank_you.png)
+
+The thank you page shares its structure with the [Order Form](#order-form) page. It's main purpose is to reassure the user that the form worked as intended and successfully completed the query initiated by the customer. Thus, ensuring that everything is functioning properly and that there is no cause for concern.
+
+### 404 Page
+
+![404](docs/404_page.png)
+
+404 pages are elements that are not commonly visible to the user. Thus, this page aims to help navigate users back to the home page to prevent them from feeling lost. The 404 page is a unique element within the project is it leverages the fact that it will not be commonly visible to the users by displaying a puppet as comic relief.
+
+---
+
+
 
 
 
