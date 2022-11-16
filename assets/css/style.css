@@ -100,7 +100,6 @@ a:not(.nav) {
     text-align: center;
     border-color: #e6e6e9ff;
     border-style: double;
-    /* Lines 79-87 style and position background for text. */
     top: 75%;
     left: 75%;
     padding: 20px;
@@ -127,7 +126,6 @@ a:not(.nav) {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    /* Lines 83-86 add a zoom-in effect to the hero image */
     animation-name: heroimage-zoom;
     animation-duration: 10s;
     animation-fill-mode: forwards;
@@ -141,7 +139,6 @@ a:not(.nav) {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    /* Lines 145-147 add a zoom-in effect to the hero image */
     animation-name: heroimage-zoom;
     animation-duration: 10s;
     animation-fill-mode: forwards;
