@@ -139,6 +139,8 @@ The five pillars of user experience discussed in Code Institute's curriculum hea
 
 ## Wireframes
 
+Wireframes were designed using software named Balsamiq.
+
 ### Home Page
 
 - Desktop 
