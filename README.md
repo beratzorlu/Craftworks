@@ -488,6 +488,7 @@ DevTools.
 - [UCD Professional Academy](https://www.ucd.ie/professionalacademy/): I would like to thank UCD PA for their facilitator and masterclass sessions in partnership with Code Insitute. These have been invaluable in better understanding relevant theory and practice elements.
 - [Stack Overflow](https://stackoverflow.com/): This project heavily made use of Stack Overflow for troubleshooting problems that occurred throughout the development process. Below is an entry that I used to fix an ordering issue in the navigation bar;
     - [Menu appears in reverse order](https://stackoverflow.com/questions/17964749/menu-appears-in-reverse-order) (This post is active at the time of writing this documentation.)
+    - [Navigation item styling exception rule](https://stackoverflow.com/questions/53241566/how-to-make-exceptions-to-css-rules) (This post is active at the time of writing this documentation.)
 - [Adam Gilroy](https://github.com/adamgilroy22/happy-dog-cafe): Adam's Happy Dog Cafe project has been an inspiration for me. More specifically, his approach to implementing an info card was interesting to me and I wanted to see how I could do the same for my project.
 - [Joseph Smith](https://github.com/jts272/pp1-happy-bees-cafe): Joseph's approach towards developing a gallery grid was intriguing to me. I wanted to implement a similar structure to my website by changing and adding to his approach to make it my own. 
 - [W3Schools](https://www.w3schools.com/): W3S was an excellent resource in understanding and practicing CSS and HTML frameworks

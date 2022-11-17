@@ -76,7 +76,7 @@ h2 {
     border-bottom: 2px solid #840032ff;
 }
 
-/* Exception rule idea from Stack Overflow URL:https://stackoverflow.com/questions/53241566/how-to-make-exceptions-to-css-rules */
+/* Exception rule for order button styling on the navbar. */
 a:not(.nav) {
     border: 2px solid var(--liver-dogs);
     padding: 10%;
@@ -118,6 +118,8 @@ a:not(.nav) {
     position: relative;
 }
 
+/* Hero image zoom-in animation */
+
 #hero-image {
     height: 60vh;
     width: 100%;
@@ -130,6 +132,8 @@ a:not(.nav) {
     animation-duration: 10s;
     animation-fill-mode: forwards;
 }
+
+/* Hero image zoom-in animation for the order page */
 
 #hero-image-order {
     height: 60vh;
@@ -144,7 +148,7 @@ a:not(.nav) {
     animation-fill-mode: forwards;
 }
 
-/* Hero Image CSS Animation (Took inspiration from the Love Running Project) */
+/* Hero Image CSS Animation */
 
 @keyframes heroimage-zoom {
     from {
@@ -155,8 +159,6 @@ a:not(.nav) {
         transform: scale(1.1)
     }
 }
-
-/*Company Ethos*/
 
 .welcome-header {
     text-align: center;
@@ -230,8 +232,6 @@ hr {
     color: #0c120cff;
 }
 
-/* Homepage Information Card (Took inspiration from the Happy Dog Cafe Project, Adam Gilroy/adamgilroy22) */
-
 #info-section {
     padding: 30px;
 }
@@ -294,8 +294,6 @@ hr {
 #info-text p:last-of-type {
     padding-bottom: 30px;
 }
-
-/* Footer */
 
 footer {
     height: 150px;
@@ -434,6 +432,7 @@ textarea {
     width: 63%;
 }
 
+/* Submit button press-in effect. */
 .submit-button {
     background-color: var(--claret);
     color: var(--platinum);
@@ -459,13 +458,10 @@ textarea {
     box-shadow: 0 10px #999;
 }
 
-/* Button press-in effect code inspired by W3 Schools URL:https://www.w3schools.com/howto/howto_css_animate_buttons.asp */
 .submit-button:active {
     box-shadow: 0 5px #999;
     transform: translateY(5px);
 }
-
-/* 404 Page */
 
 .text-404 {
     text-align: center;
@@ -494,6 +490,8 @@ textarea {
 
 
 /* Desktop Responsivity*/
+
+/* Laptop */ 
 
 @media screen and (max-width: 1300px) {
 
@@ -537,7 +535,19 @@ textarea {
 
 }
 
+/* Mobile Responsivity */
+
+/* Tablet */
 @media screen and (min-width: 1024px) {
+
+    .company-ethos {
+        height: 700px;
+    }
+
+    .order-form {
+        max-width: 60%;
+        width: 60%;
+    }
 
     #info-section {
         margin-top: 2rem;
@@ -565,7 +575,12 @@ textarea {
     }
 }
 
-/* Mobile Responsivity */
+@media screen and (max-width: 840px) {
+
+    .company-ethos {
+        height: 700px;
+    }
+}
 
 @media screen and (max-width: 768px) {
 
@@ -613,6 +628,7 @@ textarea {
     }
 }
 
+/* Phone */
 @media screen and (max-width: 450px) {
     .company-ethos {
         height: 1000px;
@@ -621,6 +637,7 @@ textarea {
     }
 }
 
+ /* Small Phone */
 @media screen and (max-width: 320px) {
 
     #sitelogo {
