@@ -459,20 +459,16 @@ before implementing them into my project. The code I implemented from them are a
 - [Kinsta](https://kinsta.com/blog/responsive-web-design/): This blog on Kinsta.com allowed me to better understand using resolution breakpoints while developing my media quaries for website responsivity.
 - [Web.Dev](https://web.dev/centering-in-css/): Web.Dev's blog about centering in css allowed me to fix an issue that I was encountering while working on making the navigation bar responsive.
 
+--- 
 
+## Closing Remarks
 
-### Wireframes
+Overall, developing the Craftworks project has provided myriad opportunities to learn and practice using HTML and CSS to build an industry-level website. This has greately impacted my capacity to understand the frameworks associated with implementing various techniques regarding the front-end aspect of web development. The development process overall has been more non-linear than initially forseen. 
 
-{Provide the wireframe jpgs here.}
+It was often the case where a particular issue would take a long period of time to solve as the solution would behave differently in other platforms. Regardless, this ultimately provided an important learning point where patience is key in finding an appropriate issue in development overall. Without a sound understanding and practice of this notion, one will find it difficult to effectively manufacture solutions to problems that will appear during the development process. 
 
-===== Before Code/implementation ===
-7. Technology
-8. testing
-   8.1 code validation
-   8.2 test cases (user story based with screenshots)
-   8.3 fixed bugs
-   8.4 supported screens and browsers
-9. Deployment
-   9.1 via gitpod
-   9.2 via github pages
-10. credits
+Having the support of my fellow students on the official Code Institute Slack channel and my mentor Rohit Sharma was an invaluable asset to have.
+
+I am grateful to have been able to come to these learning points through this project and feel accomplished to have designed and developed my Craftworks projects from ground up. 
+
+---
