@@ -67,7 +67,7 @@ The principles of CARE had a significant impact on the creation of this project 
 
 -   [Credits and References](#credits-and-references)
 
--   [Closing Words](#closing-words)
+-   [Closing Remarks](#closing-remarks)
 
 ---
 
@@ -318,6 +318,8 @@ The thank you page shares its structure with the [Order Form](#order-form) page.
 
 ## Future Features
 
+- ### Iframe Google Maps
+    - This will provide visual feedback for the locational information of the website. While originally planned, this idea was later scrapped in favour of ensuring the production of a minimum viable product.
 - ### Back to Top Button
     - This will help with easier navigation.
 - ### Interactive Infographic for Ordering Process
@@ -513,3 +515,4 @@ Having the support of my fellow students on the official Code Institute Slack ch
 I am grateful to have been able to come to these learning points through this project and feel accomplished to have designed and developed my Craftworks projects from the ground up. 
 
 ---
+ [Back to Top](https://github.com/beratzorlu/Craftworks/)
