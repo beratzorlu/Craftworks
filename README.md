@@ -65,9 +65,9 @@ Principles of CARE had a significant impact on the creation of this project wher
     -	[Software](#software)
     -   [Platforms](#platforms)
 
--	[Credits](#credits)
+-	[Credits and References](#credits-and-references)
 
--	[Closing Words](#closing-words)
+-   [Closing Words](#closing-words)
 
 ---
 
@@ -435,7 +435,29 @@ This project was deployed by means of GitHub pages using the following procedure
 DevTools.
 - Font Awesome: For importing fonts to further decorate text elements.
 - Coolors: For creating a matching colour pallete that have appropriate contrast.
+- Code Beautify: For looking for differences between two pieces of code. This was helpful in identifying my mistakes.
 
+---
+
+## Credits and References
+
+- [Code Institute](https://codeinstitute.net/): I would like to thank Code Institute for their support and guidance throughout the development of this project.
+- [UCD Professional Academy](https://www.ucd.ie/professionalacademy/): I would like to thank UCD PA for their facilitator and masterclass sessions in partnership with Code Insitute. These have been invaluable in better understanding relevant theory and practice elements.
+- [Stack Overflow](https://stackoverflow.com/): This project heavily made use of Stack Overflow for troubleshooting for problems that occured throughout the development process. Below is an entry that I used to fix an ordering issue in the navigation bar;
+    - [Menu appears in reverse order](https://stackoverflow.com/questions/17964749/menu-appears-in-reverse-order) (This post is active at the time of writing this documentation.)
+- [Adam Gilroy](https://github.com/adamgilroy22/happy-dog-cafe): Adam's Happy Dog Cafe project has been an inspiration for me. More specifically, his approach to implementing an info card was interesting to me and I wanted to see how I could do the same for my project.
+- [Joseph Smith](https://github.com/jts272/pp1-happy-bees-cafe): Joseph's approach towards developing a gallery grid was intriguing to me. I wanted to implement a similar structure to my website by changing and adding to his approach to make it my own. 
+- [W3Schools](https://www.w3schools.com/): W3S was an excellent resource in understanding and practicing CSS and HTML frameworks
+before implementing them into my project. The code I implemented from them are as follow;
+
+    - [CSS List Without Bullets](https://www.w3schools.com/howto/howto_css_list_without_bullets.asp)
+    - [Background Position](https://www.w3schools.com/csSref/pr_background-position.php )
+    - [CSS Button Animation](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate3)
+
+- [Envato Tuts+](https://www.youtube.com/watch?v=qhhbybFPTbU): A video from a channel named Envato Tuts+ was helpful in understanding how to align items with flex.
+- [Alvaro Trigo](https://alvarotrigo.com/blog/css-transition-duration/): Alvaro's blog post about CSS transition durations helped making the ease-in-out effect for the gallery grid work as intended. 
+- [Kinsta](https://kinsta.com/blog/responsive-web-design/): This blog on Kinsta.com allowed me to better understand using resolution breakpoints while developing my media quaries for website responsivity.
+- [Web.Dev](https://web.dev/centering-in-css/): Web.Dev's blog about centering in css allowed me to fix an issue that I was encountering while working on making the navigation bar responsive.
 
 
 
