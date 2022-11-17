@@ -63,6 +63,7 @@ Principles of CARE had a significant impact on the creation of this project wher
 -	[Technologies Used](#technologies-used)
     -	[Hardware](#hardware)
     -	[Software](#software)
+    -   [Platforms](#platforms)
 
 -	[Credits](#credits)
 
@@ -389,15 +390,51 @@ The testing procedure began immediately after the deployment of the website on [
 
 ---
 
+## Deployment
 
+This project was deployed by means of GitHub pages using the following procedure;
 
+1. After creating a repository for the project, select the settings tab indicated by a :gear: icon.
+2. Navigate to the "Code and Automation" section on the left side of the page and click on the "Pages" link.
+3. Having done this, select "Main" and then the "root" folder from the drop-down branch menu.
+4. Hit "save" to ensure that your changes are recognised by the service.
+5. Finally, if previous steps were followed correctly GitHub will create a page and present a URL to the deployed website.
 
+---
 
+## Technologies Used
 
+### Hardware
 
+- Monster Abra A5 V13.4 15.6" Laptop
+- Samsung VA 1920x1080 144Hz Curved Gaming Monitor
+- Iphone 7 Plus
+- Samsung Galaxy A51
 
+### Software
 
+- Mozilla Firefox: Main browser used for development, testing and device simulation.
+- Google Chrome: Secondary browser for testing and device simulation.
+- Microsoft Edge: Tertiary browser for testing.
+- Firefox Mobile: Mobile testing of the deployed site.
+- Chrome Mobile: Mobile testing of deployed site.
+- Safari Mobile: Mobile testing of deployed site.
+- GIMP: Used for converting .jpg and .png files to .webp for site optimization.
+- Balsamiq: Used for wireframing.
+- Windows Snip & Sketch: Capturing screenshots for readme and archiving identified bugs.
+- Microsoft Snipping Tool: Fallback screen capture software when MS Snip & Sketched became unresponsive.
 
+### Platforms
+
+- GitHub: Version control and site deployment.
+- GitPod: Integrated development Environment (IDE) chosen for this project.
+- Pexels: Primary source for high quality royalty free images.
+- Pixabay: Secondary source for high quality royalty free images.
+- Google Fonts: Finding and exporting third party fonts for the website.
+- CodePen: For quickly testing out ideas before carrying them to 
+DevTools.
+- Font Awesome: For importing fonts to further decorate text elements.
+- Coolors: For creating a matching colour pallete that have appropriate contrast.
 
 
 
