@@ -37,7 +37,7 @@ The principles of CARE had a significant impact on the creation of this project 
     -   [Gallery](#gallery)
     -   [About](#about)
     -   [Order](#order)
-    -   [Thank You](#thankyou)
+    -   [Thank You](#thank-you)
     -   [404 Page](#404-page)
 
 -   [Future Features](#future-features) 
@@ -57,8 +57,6 @@ The principles of CARE had a significant impact on the creation of this project 
 -   [Bug Fixes](#bug-fixes)
 
 -   [Deployment](#deployment)
-
--   [Future Features](#future-features)
 
 -   [Technologies Used](#technologies-used)
     -   [Hardware](#hardware)
@@ -509,11 +507,11 @@ before implementing them into my project. The code I implemented from them is as
 
 Overall, developing the Craftworks project has provided myriad opportunities to learn and practice using HTML and CSS to build an industry-level website. This has greatly impacted my capacity to understand the frameworks associated with implementing various techniques regarding the front-end aspect of web development.
 
-The development process overall has been more non-linear than initially foreseen. It was often the case where a particular issue would take a long period to solve as the solution would behave differently in other platforms. Regardless, this ultimately provided an important learning point where patience is key in finding an appropriate issue in development overall. Without a sound understanding and practice of this notion, one will find it difficult to effectively manufacture solutions to problems that will appear during the development process. 
+The development process overall has been more non-linear than initially foreseen. It was often the case where a particular issue would take a long period to solve as the solution would behave differently in other platforms. Regardless, this ultimately provided an important learning point. Patience is key in finding an appropriate issue in software development overall. Without a sound understanding and practice of this notion, one will find it difficult to effectively manufacture solutions to problems that will appear during the development process. 
 
 Having the support of my fellow students on the official Code Institute Slack channel and my mentor Rohit Sharma was an invaluable asset to have.
 
-I am grateful to have been able to come to these learning points through this project and feel accomplished to have designed and developed my Craftworks projects from the ground up. 
+I am grateful to being able to come to these learning points through this project and I feel accomplished to have designed and developed the Craftworks website from the ground up. 
 
 ---
  [Back to Top](https://github.com/beratzorlu/Craftworks/)
